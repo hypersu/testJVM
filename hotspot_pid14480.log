@@ -1,0 +1,909 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hotspot_log version='160 1' process='14480' time_ms='1679386082151'>
+<vm_version>
+<name>
+OpenJDK 64-Bit Server VM
+</name>
+<release>
+16.0.2+7-67
+</release>
+<info>
+OpenJDK 64-Bit Server VM (16.0.2+7-67) for windows-amd64 JRE (16.0.2+7-67), built on Jun  8 2021 23:21:43 by &quot;mach5one&quot; with MS VC++ 16.7 (VS2019)
+</info>
+</vm_version>
+<vm_arguments>
+<args>
+-XX:+UnlockDiagnosticVMOptions -XX:+PrintCompilation -XX:+LogCompilation -javaagent:D:\IntelliJ IDEA 2022.1.1\lib\idea_rt.jar=52714:D:\IntelliJ IDEA 2022.1.1\bin -Dfile.encoding=UTF-8 </args>
+<command>
+org.example.TestLogCompilation
+</command>
+<launcher>
+SUN_STANDARD
+</launcher>
+<properties>
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.version=16.0.2+7-67
+java.vm.name=OpenJDK 64-Bit Server VM
+jdk.debug=release
+sun.boot.library.path=D:\java\openjdk-16.0.2\bin
+java.library.path=D:\java\openjdk-16.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\java\openjdk-11\bin;D:\cygwin64\bin;D:\SecureCrt\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\nodejs\;D:\TortoiseSVN\bin;D:\Git\cmd;D:\SQLite;C:\Program Files\OpenVPN\bin;D:\redis-5.0.14;D:\mysql-8.0.31\bin;D:\apache-maven-3.9.0\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\suxiaohan\AppData\Local\Microsoft\WindowsApps;D:\nodejs\node_global;D:\IntelliJ IDEA 2021.3.1\bin;;D:\CLion 2021.3.2\bin;;C:\Users\suxiaohan\AppData\Local\GitHubDesktop\bin;C:\Users\suxiaohan\.dotnet\tools;.
+java.home=D:\java\openjdk-16.0.2
+java.class.path=D:\IdeaProjects\demo\testJVM\out\production\testJVM
+jdk.boot.class.path.append=
+java.vm.info=mixed mode, sharing
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=16
+java.vm.vendor=Oracle Corporation
+file.encoding=UTF-8
+sun.java.command=org.example.TestLogCompilation
+sun.java.launcher=SUN_STANDARD
+</properties>
+</vm_arguments>
+<tty>
+<writer thread='6096'/>
+<blob name='MethodHandlesAdapterBlob' size='4000'>
+<sect index='1' size='4000' free='3585'/>
+</blob>
+<task_queued compile_id='1' method='java.lang.String isLatin1 ()Z' bytes='19' count='384' iicount='384' level='3' stamp='0.069' comment='tiered' hot_count='384'/>
+<task_queued compile_id='2' method='java.lang.Object &lt;init&gt; ()V' bytes='1' count='640' iicount='640' level='3' stamp='0.073' comment='tiered' hot_count='640'/>
+<task_queued compile_id='3' method='java.lang.StringLatin1 hashCode ([B)I' bytes='42' count='166' backedge_count='3072' iicount='166' level='3' stamp='0.074' comment='tiered' hot_count='166'/>
+<task_queued compile_id='4' method='java.lang.String hashCode ()I' bytes='60' count='384' iicount='384' level='3' stamp='0.074' comment='tiered' hot_count='384'/>
+<task_queued compile_id='5' method='java.lang.Math floorMod (II)I' bytes='20' count='384' iicount='384' level='3' stamp='0.075' comment='tiered' hot_count='384'/>
+<task_queued compile_id='6' method='java.util.ImmutableCollections$SetN probe (Ljava/lang/Object;)I' bytes='56' count='512' backedge_count='198' iicount='512' level='3' stamp='0.076' comment='tiered' hot_count='512'/>
+<task_queued compile_id='7' method='java.lang.String equals (Ljava/lang/Object;)Z' bytes='50' count='512' iicount='512' level='3' stamp='0.078' comment='tiered' hot_count='512'/>
+<task_queued compile_id='8' method='java.lang.StringLatin1 equals ([B[B)Z' bytes='36' count='512' backedge_count='375' iicount='512' level='3' stamp='0.079' comment='tiered' hot_count='512'/>
+<task_queued compile_id='9' method='java.util.Set of ()Ljava/util/Set;' bytes='4' count='640' iicount='640' level='3' stamp='0.082' comment='tiered' hot_count='640'/>
+<task_queued compile_id='10' method='java.util.Objects requireNonNull (Ljava/lang/Object;)Ljava/lang/Object;' bytes='14' count='640' iicount='640' level='3' stamp='0.083' comment='tiered' hot_count='640'/>
+<task_queued compile_id='11' method='java.lang.module.ModuleDescriptor name ()Ljava/lang/String;' bytes='5' count='128' iicount='128' level='1' stamp='0.085' comment='tiered' hot_count='128'/>
+<task_queued compile_id='12' method='java.lang.String coder ()B' bytes='15' count='640' iicount='640' level='3' stamp='0.085' comment='tiered' hot_count='640'/>
+<task_queued compile_id='13' method='java.lang.module.ModuleReference descriptor ()Ljava/lang/module/ModuleDescriptor;' bytes='5' count='128' iicount='128' level='1' stamp='0.085' comment='tiered' hot_count='128'/>
+<nmethod compile_id='14' compile_kind='c2n' compiler='' level='0' entry='0x000001ae54150180' size='408' address='0x000001ae54150010' relocation_offset='352' consts_offset='408' insts_offset='368' method='java.lang.invoke.MethodHandle linkToStatic (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/invoke/MemberName;)Ljava/lang/Object;' bytes='0' count='0' iicount='0' stamp='0.097'/>
+     97   14     n 0       java.lang.invoke.MethodHandle::linkToStatic(LLLLLLL)L (native)   (static)
+<task_queued compile_id='15' method='java.lang.Enum ordinal ()I' bytes='5' count='128' iicount='128' level='1' stamp='0.099' comment='tiered' hot_count='128'/>
+<nmethod compile_id='16' compile_kind='c2n' compiler='' level='0' entry='0x000001ae54150480' size='400' address='0x000001ae54150310' relocation_offset='352' consts_offset='400' insts_offset='368' method='java.lang.invoke.MethodHandle linkToStatic (Ljava/lang/Object;Ljava/lang/invoke/MemberName;)I' bytes='0' count='0' iicount='0' stamp='0.100'/>
+     99   16     n 0       java.lang.invoke.MethodHandle::linkToStatic(LL)I (native)   (static)
+<writer thread='14836'/>
+<thread_logfile thread='14836' filename='C:\Users\SUXIAO~1\AppData\Local\Temp\\hs_c14836_pid14480.log'/>
+<writer thread='6096'/>
+<nmethod compile_id='17' compile_kind='c2n' compiler='' level='0' entry='0x000001ae54150780' size='416' address='0x000001ae54150610' relocation_offset='352' consts_offset='416' insts_offset='368' method='java.lang.invoke.MethodHandle invokeBasic (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' bytes='0' count='0' iicount='0' stamp='0.101'/>
+    101   17     n 0       java.lang.invoke.MethodHandle::invokeBasic(LLLLLL)L (native)   
+<nmethod compile_id='18' compile_kind='c2n' compiler='' level='0' entry='0x000001ae54150a80' size='408' address='0x000001ae54150910' relocation_offset='352' consts_offset='408' insts_offset='368' method='java.lang.invoke.MethodHandle linkToSpecial (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/invoke/MemberName;)Ljava/lang/Object;' bytes='0' count='0' iicount='0' stamp='0.102'/>
+    101   18     n 0       java.lang.invoke.MethodHandle::linkToSpecial(LLLLLLLL)L (native)   (static)
+<writer thread='15120'/>
+<thread_logfile thread='15120' filename='C:\Users\SUXIAO~1\AppData\Local\Temp\\hs_c15120_pid14480.log'/>
+    103    3       2       java.lang.StringLatin1::hashCode (42 bytes)
+<nmethod compile_id='3' compiler='c1' level='2' entry='0x000001ae4cc201a0' size='968' address='0x000001ae4cc20010' relocation_offset='352' insts_offset='400' stub_offset='720' scopes_data_offset='784' scopes_pcs_offset='848' dependencies_offset='944' nul_chk_table_offset='952' metadata_offset='776' method='java.lang.StringLatin1 hashCode ([B)I' bytes='42' count='1202' backedge_count='30109' iicount='1202' stamp='0.105'/>
+    105    6       3       java.util.ImmutableCollections$SetN::probe (56 bytes)
+<nmethod compile_id='6' compiler='c1' level='3' entry='0x000001ae4cc20600' size='2360' address='0x000001ae4cc20410' relocation_offset='352' insts_offset='496' stub_offset='1808' scopes_data_offset='1912' scopes_pcs_offset='2080' dependencies_offset='2304' nul_chk_table_offset='2312' metadata_offset='1896' method='java.util.ImmutableCollections$SetN probe (Ljava/lang/Object;)I' bytes='56' count='1539' backedge_count='630' iicount='1539' stamp='0.106'/>
+    106    8       3       java.lang.StringLatin1::equals (36 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='19' method='java.lang.Class getClassLoader0 ()Ljava/lang/ClassLoader;' bytes='5' count='128' iicount='128' level='1' stamp='0.107' comment='tiered' hot_count='128'/>
+<writer thread='15120'/>
+<nmethod compile_id='8' compiler='c1' level='3' entry='0x000001ae4cc20f40' size='1352' address='0x000001ae4cc20d90' relocation_offset='352' insts_offset='432' stub_offset='1072' scopes_data_offset='1136' scopes_pcs_offset='1192' dependencies_offset='1320' nul_chk_table_offset='1328' metadata_offset='1128' method='java.lang.StringLatin1 equals ([B[B)Z' bytes='36' count='793' backedge_count='564' iicount='793' stamp='0.107'/>
+    106    4       3       java.lang.String::hashCode (60 bytes)
+<writer thread='6096'/>
+<nmethod compile_id='20' compile_kind='c2n' compiler='' level='0' entry='0x000001ae54150d80' size='400' address='0x000001ae54150c10' relocation_offset='352' consts_offset='400' insts_offset='368' method='java.lang.invoke.MethodHandle linkToStatic (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/invoke/MemberName;)Ljava/lang/Object;' bytes='0' count='0' iicount='0' stamp='0.108'/>
+    107   20     n 0       java.lang.invoke.MethodHandle::linkToStatic(LLL)L (native)   (static)
+<nmethod compile_id='21' compile_kind='c2n' compiler='' level='0' entry='0x000001ae541510a0' size='1008' address='0x000001ae54150f10' relocation_offset='352' consts_offset='1008' insts_offset='400' method='java.lang.Object hashCode ()I' bytes='0' count='640' iicount='640' stamp='0.108'/>
+    107   21     n 0       java.lang.Object::hashCode (native)   
+<writer thread='15120'/>
+<nmethod compile_id='4' compiler='c1' level='3' entry='0x000001ae4cc214e0' size='1520' address='0x000001ae4cc21310' relocation_offset='352' insts_offset='464' stub_offset='1264' scopes_data_offset='1368' scopes_pcs_offset='1416' dependencies_offset='1512' metadata_offset='1352' method='java.lang.String hashCode ()I' bytes='60' count='2464' iicount='2464' stamp='0.108'/>
+    108    2       3       java.lang.Object::&lt;init&gt; (1 bytes)
+<nmethod compile_id='2' compiler='c1' level='3' entry='0x000001ae4cc21aa0' size='768' address='0x000001ae4cc21910' relocation_offset='352' insts_offset='400' stub_offset='624' scopes_data_offset='696' scopes_pcs_offset='712' dependencies_offset='760' metadata_offset='680' method='java.lang.Object &lt;init&gt; ()V' bytes='1' count='3108' iicount='3108' stamp='0.108'/>
+<writer thread='6096'/>
+<nmethod compile_id='22' compile_kind='c2n' compiler='' level='0' entry='0x000001ae54151480' size='400' address='0x000001ae54151310' relocation_offset='352' consts_offset='400' insts_offset='368' method='java.lang.invoke.MethodHandle linkToStatic (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/invoke/MemberName;)Ljava/lang/Object;' bytes='0' count='0' iicount='0' stamp='0.108'/>
+    108   22     n 0       java.lang.invoke.MethodHandle::linkToStatic(LLLL)L (native)   (static)
+<writer thread='15120'/>
+    108    5       3       java.lang.Math::floorMod (20 bytes)
+<nmethod compile_id='5' compiler='c1' level='3' entry='0x000001ae4cc21e20' size='936' address='0x000001ae4cc21c90' relocation_offset='352' insts_offset='400' stub_offset='752' scopes_data_offset='816' scopes_pcs_offset='848' dependencies_offset='912' nul_chk_table_offset='920' metadata_offset='808' method='java.lang.Math floorMod (II)I' bytes='20' count='1625' iicount='1625' stamp='0.109'/>
+    108   10       3       java.util.Objects::requireNonNull (14 bytes)
+<nmethod compile_id='10' compiler='c1' level='3' entry='0x000001ae4cc22240' size='1064' address='0x000001ae4cc22090' relocation_offset='352' insts_offset='432' stub_offset='848' scopes_data_offset='928' scopes_pcs_offset='960' dependencies_offset='1056' metadata_offset='920' method='java.util.Objects requireNonNull (Ljava/lang/Object;)Ljava/lang/Object;' bytes='14' count='1348' iicount='1348' stamp='0.109'/>
+    109   12       3       java.lang.String::coder (15 bytes)
+<nmethod compile_id='12' compiler='c1' level='3' entry='0x000001ae4cc226a0' size='792' address='0x000001ae4cc22510' relocation_offset='352' insts_offset='400' stub_offset='656' scopes_data_offset='720' scopes_pcs_offset='736' dependencies_offset='784' metadata_offset='712' method='java.lang.String coder ()B' bytes='15' count='1075' iicount='1075' stamp='0.110'/>
+    109    1       3       java.lang.String::isLatin1 (19 bytes)
+<nmethod compile_id='1' compiler='c1' level='3' entry='0x000001ae4cc22a20' size='856' address='0x000001ae4cc22890' relocation_offset='352' insts_offset='400' stub_offset='720' scopes_data_offset='784' scopes_pcs_offset='800' dependencies_offset='848' metadata_offset='776' method='java.lang.String isLatin1 ()Z' bytes='19' count='2018' iicount='2018' stamp='0.110'/>
+    110    7       3       java.lang.String::equals (50 bytes)
+<nmethod compile_id='7' compiler='c1' level='3' entry='0x000001ae4cc22de0' size='1760' address='0x000001ae4cc22c10' relocation_offset='352' insts_offset='464' stub_offset='1520' scopes_data_offset='1600' scopes_pcs_offset='1640' dependencies_offset='1736' nul_chk_table_offset='1744' metadata_offset='1592' method='java.lang.String equals (Ljava/lang/Object;)Z' bytes='50' count='932' iicount='932' stamp='0.111'/>
+    110   15       1       java.lang.Enum::ordinal (5 bytes)
+<nmethod compile_id='15' compiler='c1' level='1' entry='0x000001ae541517a0' size='664' address='0x000001ae54151610' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.lang.Enum ordinal ()I' bytes='5' count='257' iicount='257' stamp='0.111'/>
+    111   19       1       java.lang.Class::getClassLoader0 (5 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='23' method='java.lang.String length ()I' bytes='11' count='640' iicount='640' level='3' stamp='0.111' comment='tiered' hot_count='640'/>
+<writer thread='15120'/>
+<nmethod compile_id='19' compiler='c1' level='1' entry='0x000001ae54151aa0' size='664' address='0x000001ae54151910' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.lang.Class getClassLoader0 ()Ljava/lang/ClassLoader;' bytes='5' count='178' iicount='178' stamp='0.111'/>
+    111   23       3       java.lang.String::length (11 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='24' method='java.lang.String charAt (I)C' bytes='25' count='640' iicount='640' level='3' stamp='0.112' comment='tiered' hot_count='640'/>
+<task_queued compile_id='25' method='java.lang.StringLatin1 charAt ([BI)C' bytes='28' count='640' iicount='640' level='3' stamp='0.112' comment='tiered' hot_count='640'/>
+<writer thread='15120'/>
+<nmethod compile_id='23' compiler='c1' level='3' entry='0x000001ae4cc234c0' size='1000' address='0x000001ae4cc23310' relocation_offset='352' insts_offset='432' stub_offset='784' scopes_data_offset='856' scopes_pcs_offset='896' dependencies_offset='976' nul_chk_table_offset='984' metadata_offset='840' method='java.lang.String length ()I' bytes='11' count='654' iicount='654' stamp='0.112'/>
+    111   24       3       java.lang.String::charAt (25 bytes)
+<nmethod compile_id='24' compiler='c1' level='3' entry='0x000001ae4cc23900' size='2304' address='0x000001ae4cc23710' relocation_offset='352' insts_offset='496' stub_offset='1744' scopes_data_offset='1880' scopes_pcs_offset='2048' dependencies_offset='2272' nul_chk_table_offset='2280' metadata_offset='1832' method='java.lang.String charAt (I)C' bytes='25' count='869' iicount='869' stamp='0.112'/>
+    112   25       3       java.lang.StringLatin1::charAt (28 bytes)
+<nmethod compile_id='25' compiler='c1' level='3' entry='0x000001ae4cc24240' size='1144' address='0x000001ae4cc24090' relocation_offset='352' insts_offset='432' stub_offset='880' scopes_data_offset='960' scopes_pcs_offset='1008' dependencies_offset='1120' nul_chk_table_offset='1128' metadata_offset='952' method='java.lang.StringLatin1 charAt ([BI)C' bytes='28' count='929' iicount='929' stamp='0.113'/>
+    113   13       1       java.lang.module.ModuleReference::descriptor (5 bytes)
+<nmethod compile_id='13' compiler='c1' level='1' entry='0x000001ae54151da0' size='664' address='0x000001ae54151c10' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.lang.module.ModuleReference descriptor ()Ljava/lang/module/ModuleDescriptor;' bytes='5' count='212' iicount='212' stamp='0.113'/>
+    113   11       1       java.lang.module.ModuleDescriptor::name (5 bytes)
+<nmethod compile_id='11' compiler='c1' level='1' entry='0x000001ae541520a0' size='664' address='0x000001ae54151f10' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.lang.module.ModuleDescriptor name ()Ljava/lang/String;' bytes='5' count='206' iicount='206' stamp='0.114'/>
+    113    9       3       java.util.Set::of (4 bytes)
+<nmethod compile_id='9' compiler='c1' level='3' entry='0x000001ae4cc24720' size='720' address='0x000001ae4cc24590' relocation_offset='352' insts_offset='400' stub_offset='592' scopes_data_offset='656' scopes_pcs_offset='664' dependencies_offset='712' metadata_offset='648' method='java.util.Set of ()Ljava/util/Set;' bytes='4' count='646' iicount='646' stamp='0.114'/>
+<writer thread='6096'/>
+<task_queued compile_id='26' method='java.lang.invoke.MethodType returnType ()Ljava/lang/Class;' bytes='5' count='128' iicount='128' level='1' stamp='0.116' comment='tiered' hot_count='128'/>
+<writer thread='15120'/>
+    115   26       1       java.lang.invoke.MethodType::returnType (5 bytes)
+<writer thread='6096'/>
+<nmethod compile_id='27' compile_kind='c2n' compiler='' level='0' entry='0x000001ae54152380' size='416' address='0x000001ae54152210' relocation_offset='352' consts_offset='416' insts_offset='368' method='java.lang.invoke.MethodHandle invokeBasic ()Ljava/lang/Object;' bytes='0' count='0' iicount='0' stamp='0.116'/>
+    115   27     n 0       java.lang.invoke.MethodHandle::invokeBasic()L (native)   
+<writer thread='15120'/>
+<nmethod compile_id='26' compiler='c1' level='1' entry='0x000001ae541526a0' size='664' address='0x000001ae54152510' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.lang.invoke.MethodType returnType ()Ljava/lang/Class;' bytes='5' count='129' iicount='129' stamp='0.116'/>
+<writer thread='6096'/>
+<nmethod compile_id='28' compile_kind='c2n' compiler='' level='0' entry='0x000001ae54152980' size='400' address='0x000001ae54152810' relocation_offset='352' consts_offset='400' insts_offset='368' method='java.lang.invoke.MethodHandle linkToSpecial (Ljava/lang/Object;Ljava/lang/invoke/MemberName;)Ljava/lang/Object;' bytes='0' count='0' iicount='0' stamp='0.116'/>
+    115   28     n 0       java.lang.invoke.MethodHandle::linkToSpecial(LL)L (native)   (static)
+<nmethod compile_id='29' compile_kind='c2n' compiler='' level='0' entry='0x000001ae54152ca0' size='984' address='0x000001ae54152b10' relocation_offset='352' consts_offset='984' insts_offset='400' method='java.lang.Class isPrimitive ()Z' bytes='0' count='384' iicount='384' stamp='0.117'/>
+    116   29     n 0       java.lang.Class::isPrimitive (native)   
+<nmethod compile_id='30' compile_kind='c2n' compiler='' level='0' entry='0x000001ae54153080' size='400' address='0x000001ae54152f10' relocation_offset='352' consts_offset='400' insts_offset='368' method='java.lang.invoke.MethodHandle linkToStatic (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/invoke/MemberName;)I' bytes='0' count='0' iicount='0' stamp='0.118'/>
+    117   30     n 0       java.lang.invoke.MethodHandle::linkToStatic(LLL)I (native)   (static)
+<task_queued compile_id='31' method='java.lang.invoke.MethodTypeForm canonicalize (Ljava/lang/Class;I)Ljava/lang/Class;' bytes='233' count='256' iicount='256' level='3' stamp='0.118' comment='tiered' hot_count='256'/>
+<writer thread='15120'/>
+    117   31       3       java.lang.invoke.MethodTypeForm::canonicalize (233 bytes)
+<writer thread='6096'/>
+<nmethod compile_id='32' compile_kind='c2n' compiler='' level='0' entry='0x000001ae541533a0' size='1024' address='0x000001ae54153210' relocation_offset='352' consts_offset='1024' insts_offset='400' method='java.lang.System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V' bytes='0' count='512' iicount='512' stamp='0.118'/>
+    117   32     n 0       java.lang.System::arraycopy (native)   (static)
+<task_queued compile_id='33' method='java.lang.invoke.MemberName testFlags (II)Z' bytes='16' count='256' iicount='256' level='3' stamp='0.118' comment='tiered' hot_count='256'/>
+<task_queued compile_id='34' method='java.util.concurrent.ConcurrentHashMap tabAt ([Ljava/util/concurrent/ConcurrentHashMap$Node;I)Ljava/util/concurrent/ConcurrentHashMap$Node;' bytes='22' count='512' iicount='512' level='3' stamp='0.118' comment='tiered' hot_count='512'/>
+<task_queued compile_id='35' method='jdk.internal.misc.Unsafe getReferenceAcquire (Ljava/lang/Object;J)Ljava/lang/Object;' bytes='7' count='512' iicount='512' level='3' stamp='0.118' comment='tiered' hot_count='512'/>
+<nmethod compile_id='36' compile_kind='c2n' compiler='' level='0' entry='0x000001ae54153840' size='1184' address='0x000001ae54153690' relocation_offset='352' consts_offset='1184' insts_offset='432' method='jdk.internal.misc.Unsafe getReferenceVolatile (Ljava/lang/Object;J)Ljava/lang/Object;' bytes='0' count='512' iicount='512' stamp='0.118'/>
+    118   36     n 0       jdk.internal.misc.Unsafe::getReferenceVolatile (native)   
+<nmethod compile_id='37' compile_kind='c2n' compiler='' level='0' entry='0x000001ae54153d00' size='400' address='0x000001ae54153b90' relocation_offset='352' consts_offset='400' insts_offset='368' method='java.lang.invoke.MethodHandle linkToSpecial (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/invoke/MemberName;)V' bytes='0' count='0' iicount='0' stamp='0.118'/>
+    118   37     n 0       java.lang.invoke.MethodHandle::linkToSpecial(LLL)V (native)   (static)
+<task_queued compile_id='38' method='java.util.concurrent.ConcurrentHashMap spread (I)I' bytes='10' count='512' iicount='512' level='3' stamp='0.119' comment='tiered' hot_count='512'/>
+<nmethod compile_id='39' compile_kind='c2n' compiler='' level='0' entry='0x000001ae54154000' size='416' address='0x000001ae54153e90' relocation_offset='352' consts_offset='416' insts_offset='368' method='java.lang.invoke.MethodHandle invokeBasic (Ljava/lang/Object;)Ljava/lang/Object;' bytes='0' count='0' iicount='0' stamp='0.119'/>
+    118   39     n 0       java.lang.invoke.MethodHandle::invokeBasic(L)L (native)   
+<nmethod compile_id='40' compile_kind='c2n' compiler='' level='0' entry='0x000001ae54154300' size='400' address='0x000001ae54154190' relocation_offset='352' consts_offset='400' insts_offset='368' method='java.lang.invoke.MethodHandle linkToSpecial (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/invoke/MemberName;)Ljava/lang/Object;' bytes='0' count='0' iicount='0' stamp='0.119'/>
+    118   40     n 0       java.lang.invoke.MethodHandle::linkToSpecial(LLL)L (native)   (static)
+<writer thread='15120'/>
+<nmethod compile_id='31' compiler='c1' level='3' entry='0x000001ae4cc24b60' size='4448' address='0x000001ae4cc24890' relocation_offset='352' insts_offset='720' stub_offset='3760' scopes_data_offset='3920' scopes_pcs_offset='4112' dependencies_offset='4384' nul_chk_table_offset='4392' oops_offset='3880' metadata_offset='3888' method='java.lang.invoke.MethodTypeForm canonicalize (Ljava/lang/Class;I)Ljava/lang/Class;' bytes='233' count='274' iicount='274' stamp='0.119'/>
+    119   33       3       java.lang.invoke.MemberName::testFlags (16 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='41' method='java.lang.Object &lt;init&gt; ()V' bytes='1' count='3584' iicount='3584' stamp='0.119' comment='tiered' hot_count='3584'/>
+<writer thread='14836'/>
+    119   41       4       java.lang.Object::&lt;init&gt; (1 bytes)
+<writer thread='6096'/>
+<nmethod compile_id='42' compile_kind='c2n' compiler='' level='0' entry='0x000001ae54154600' size='424' address='0x000001ae54154490' relocation_offset='352' consts_offset='424' insts_offset='368' method='java.lang.invoke.MethodHandle linkToVirtual (Ljava/lang/Object;Ljava/lang/invoke/MemberName;)Ljava/lang/Object;' bytes='0' count='0' iicount='0' stamp='0.120'/>
+    119   42     n 0       java.lang.invoke.MethodHandle::linkToVirtual(LL)L (native)   (static)
+<writer thread='15120'/>
+<nmethod compile_id='33' compiler='c1' level='3' entry='0x000001ae4cc25ba0' size='856' address='0x000001ae4cc25a10' relocation_offset='352' insts_offset='400' stub_offset='720' scopes_data_offset='784' scopes_pcs_offset='800' dependencies_offset='848' metadata_offset='776' method='java.lang.invoke.MemberName testFlags (II)Z' bytes='16' count='315' iicount='315' stamp='0.120'/>
+    119   38       3       java.util.concurrent.ConcurrentHashMap::spread (10 bytes)
+<nmethod compile_id='38' compiler='c1' level='3' entry='0x000001ae4cc25f20' size='728' address='0x000001ae4cc25d90' relocation_offset='352' insts_offset='400' stub_offset='592' scopes_data_offset='656' scopes_pcs_offset='672' dependencies_offset='720' metadata_offset='648' method='java.util.concurrent.ConcurrentHashMap spread (I)I' bytes='10' count='535' iicount='535' stamp='0.120'/>
+<writer thread='14836'/>
+<nmethod compile_id='41' compiler='c2' level='4' entry='0x000001ae54154900' size='544' address='0x000001ae54154790' relocation_offset='352' insts_offset='368' stub_offset='464' scopes_data_offset='496' scopes_pcs_offset='504' dependencies_offset='536' metadata_offset='488' method='java.lang.Object &lt;init&gt; ()V' bytes='1' count='3633' iicount='3633' stamp='0.120'/>
+<make_not_entrant thread='14836' compile_id='2' compiler='c1' level='3' stamp='0.120'/>
+    120    2       3       java.lang.Object::&lt;init&gt; (1 bytes)   made not entrant
+<writer thread='15120'/>
+    120   34       3       java.util.concurrent.ConcurrentHashMap::tabAt (22 bytes)
+<nmethod compile_id='34' compiler='c1' level='3' entry='0x000001ae4cc26240' size='1352' address='0x000001ae4cc26090' relocation_offset='352' insts_offset='432' stub_offset='1136' scopes_data_offset='1216' scopes_pcs_offset='1264' dependencies_offset='1344' oops_offset='1192' metadata_offset='1200' method='java.util.concurrent.ConcurrentHashMap tabAt ([Ljava/util/concurrent/ConcurrentHashMap$Node;I)Ljava/util/concurrent/ConcurrentHashMap$Node;' bytes='22' count='538' iicount='538' stamp='0.121'/>
+    120   35       3       jdk.internal.misc.Unsafe::getReferenceAcquire (7 bytes)
+<nmethod compile_id='35' compiler='c1' level='3' entry='0x000001ae4cc267a0' size='864' address='0x000001ae4cc26610' relocation_offset='352' insts_offset='400' stub_offset='720' scopes_data_offset='784' scopes_pcs_offset='808' dependencies_offset='856' metadata_offset='776' method='jdk.internal.misc.Unsafe getReferenceAcquire (Ljava/lang/Object;J)Ljava/lang/Object;' bytes='7' count='538' iicount='538' stamp='0.121'/>
+<writer thread='6096'/>
+<task_queued compile_id='43' method='java.lang.invoke.MemberName getDeclaringClass ()Ljava/lang/Class;' bytes='5' count='128' iicount='128' level='1' stamp='0.121' comment='tiered' hot_count='128'/>
+<writer thread='15120'/>
+    121   43       1       java.lang.invoke.MemberName::getDeclaringClass (5 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='44' method='java.lang.invoke.MethodType hashCode ()I' bytes='53' count='256' backedge_count='619' iicount='256' level='3' stamp='0.121' comment='tiered' hot_count='256'/>
+<writer thread='15120'/>
+<nmethod compile_id='43' compiler='c1' level='1' entry='0x000001ae54154c20' size='664' address='0x000001ae54154a90' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.lang.invoke.MemberName getDeclaringClass ()Ljava/lang/Class;' bytes='5' count='131' iicount='131' stamp='0.121'/>
+<writer thread='6096'/>
+<task_queued compile_id='45' method='java.lang.invoke.MethodType$ConcurrentWeakInternSet expungeStaleElements ()V' bytes='27' count='256' iicount='256' level='3' stamp='0.121' comment='tiered' hot_count='256'/>
+<writer thread='15120'/>
+    121   44       3       java.lang.invoke.MethodType::hashCode (53 bytes)
+<writer thread='6096'/>
+<nmethod compile_id='46' compile_kind='c2n' compiler='' level='0' entry='0x000001ae54154f00' size='400' address='0x000001ae54154d90' relocation_offset='352' consts_offset='400' insts_offset='368' method='java.lang.invoke.MethodHandle linkToSpecial (Ljava/lang/Object;Ljava/lang/invoke/MemberName;)V' bytes='0' count='0' iicount='0' stamp='0.122'/>
+    121   46     n 0       java.lang.invoke.MethodHandle::linkToSpecial(LL)V (native)   (static)
+<task_queued compile_id='47' method='java.lang.String isEmpty ()Z' bytes='14' count='256' iicount='256' level='3' stamp='0.122' comment='tiered' hot_count='256'/>
+<writer thread='15120'/>
+<nmethod compile_id='44' compiler='c1' level='3' entry='0x000001ae4cc26b60' size='1720' address='0x000001ae4cc26990' relocation_offset='352' insts_offset='464' stub_offset='1296' scopes_data_offset='1392' scopes_pcs_offset='1520' dependencies_offset='1680' nul_chk_table_offset='1688' metadata_offset='1384' method='java.lang.invoke.MethodType hashCode ()I' bytes='53' count='273' backedge_count='632' iicount='273' stamp='0.122'/>
+    122   45       3       java.lang.invoke.MethodType$ConcurrentWeakInternSet::expungeStaleElements (27 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='48' method='java.lang.Math min (II)I' bytes='11' count='256' iicount='256' level='3' stamp='0.122' comment='tiered' hot_count='256'/>
+<nmethod compile_id='49' compile_kind='c2n' compiler='' level='0' entry='0x000001ae54155200' size='480' address='0x000001ae54155090' relocation_offset='352' consts_offset='480' insts_offset='368' method='java.lang.invoke.MethodHandle linkToInterface (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/invoke/MemberName;)I' bytes='0' count='0' iicount='0' stamp='0.122'/>
+    122   49     n 0       java.lang.invoke.MethodHandle::linkToInterface(LLL)I (native)   (static)
+<writer thread='15120'/>
+<nmethod compile_id='45' compiler='c1' level='3' entry='0x000001ae4cc27280' size='2312' address='0x000001ae4cc27090' relocation_offset='352' insts_offset='496' stub_offset='1744' scopes_data_offset='1872' scopes_pcs_offset='2024' dependencies_offset='2248' handler_table_offset='2256' nul_chk_table_offset='2280' metadata_offset='1832' method='java.lang.invoke.MethodType$ConcurrentWeakInternSet expungeStaleElements ()V' bytes='27' count='288' iicount='288' stamp='0.123'/>
+    122   48       3       java.lang.Math::min (11 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='50' method='java.util.concurrent.ConcurrentHashMap putIfAbsent (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' bytes='8' count='256' iicount='256' level='3' stamp='0.123' comment='tiered' hot_count='256'/>
+<writer thread='15120'/>
+<nmethod compile_id='48' compiler='c1' level='3' entry='0x000001ae4cc27ba0' size='792' address='0x000001ae4cc27a10' relocation_offset='352' insts_offset='400' stub_offset='656' scopes_data_offset='720' scopes_pcs_offset='736' dependencies_offset='784' metadata_offset='712' method='java.lang.Math min (II)I' bytes='11' count='266' iicount='266' stamp='0.123'/>
+<writer thread='6096'/>
+<task_queued compile_id='51' method='java.util.Objects equals (Ljava/lang/Object;Ljava/lang/Object;)Z' bytes='23' count='640' iicount='640' level='3' stamp='0.123' comment='tiered' hot_count='640'/>
+<writer thread='15120'/>
+    123   51       3       java.util.Objects::equals (23 bytes)
+<nmethod compile_id='51' compiler='c1' level='3' entry='0x000001ae4cc27f40' size='1216' address='0x000001ae4cc27d90' relocation_offset='352' insts_offset='432' stub_offset='1008' scopes_data_offset='1088' scopes_pcs_offset='1112' dependencies_offset='1192' nul_chk_table_offset='1200' metadata_offset='1080' method='java.util.Objects equals (Ljava/lang/Object;Ljava/lang/Object;)Z' bytes='23' count='642' iicount='642' stamp='0.124'/>
+    123   50       3       java.util.concurrent.ConcurrentHashMap::putIfAbsent (8 bytes)
+<writer thread='6096'/>
+<nmethod compile_id='52' compile_kind='c2n' compiler='' level='0' entry='0x000001ae54155500' size='400' address='0x000001ae54155390' relocation_offset='352' consts_offset='400' insts_offset='368' method='java.lang.invoke.MethodHandle linkToStatic (Ljava/lang/Object;Ljava/lang/invoke/MemberName;)Ljava/lang/Object;' bytes='0' count='0' iicount='0' stamp='0.124'/>
+    124   52     n 0       java.lang.invoke.MethodHandle::linkToStatic(LL)L (native)   (static)
+<writer thread='15120'/>
+<nmethod compile_id='50' compiler='c1' level='3' entry='0x000001ae4cc28440' size='872' address='0x000001ae4cc28290' relocation_offset='352' insts_offset='432' stub_offset='688' scopes_data_offset='768' scopes_pcs_offset='800' dependencies_offset='864' metadata_offset='760' method='java.util.concurrent.ConcurrentHashMap putIfAbsent (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' bytes='8' count='258' iicount='258' stamp='0.124'/>
+    124   47       3       java.lang.String::isEmpty (14 bytes)
+<nmethod compile_id='47' compiler='c1' level='3' entry='0x000001ae4cc287a0' size='896' address='0x000001ae4cc28610' relocation_offset='352' insts_offset='400' stub_offset='720' scopes_data_offset='784' scopes_pcs_offset='808' dependencies_offset='872' nul_chk_table_offset='880' metadata_offset='776' method='java.lang.String isEmpty ()Z' bytes='14' count='258' iicount='258' stamp='0.125'/>
+<writer thread='6096'/>
+<task_queued compile_id='53' method='java.lang.StringLatin1 canEncode (I)Z' bytes='13' count='256' iicount='256' level='3' stamp='0.127' comment='tiered' hot_count='256'/>
+<writer thread='15120'/>
+    126   53       3       java.lang.StringLatin1::canEncode (13 bytes)
+<nmethod compile_id='53' compiler='c1' level='3' entry='0x000001ae4cc28ba0' size='824' address='0x000001ae4cc28a10' relocation_offset='352' insts_offset='400' stub_offset='688' scopes_data_offset='752' scopes_pcs_offset='768' dependencies_offset='816' metadata_offset='744' method='java.lang.StringLatin1 canEncode (I)Z' bytes='13' count='265' iicount='265' stamp='0.127'/>
+<writer thread='6096'/>
+<nmethod compile_id='54' compile_kind='c2n' compiler='' level='0' entry='0x000001ae54155800' size='400' address='0x000001ae54155690' relocation_offset='352' consts_offset='400' insts_offset='368' method='java.lang.invoke.MethodHandle linkToSpecial (Ljava/lang/Object;Ljava/lang/invoke/MemberName;)I' bytes='0' count='0' iicount='0' stamp='0.127'/>
+    127   54     n 0       java.lang.invoke.MethodHandle::linkToSpecial(LL)I (native)   (static)
+<task_queued compile_id='55' method='java.lang.invoke.MethodType form ()Ljava/lang/invoke/MethodTypeForm;' bytes='5' count='128' iicount='128' level='1' stamp='0.128' comment='tiered' hot_count='128'/>
+<writer thread='15120'/>
+    127   55       1       java.lang.invoke.MethodType::form (5 bytes)
+<nmethod compile_id='55' compiler='c1' level='1' entry='0x000001ae54155b20' size='664' address='0x000001ae54155990' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.lang.invoke.MethodType form ()Ljava/lang/invoke/MethodTypeForm;' bytes='5' count='129' iicount='129' stamp='0.128'/>
+<writer thread='6096'/>
+<task_queued compile_id='56' method='java.lang.invoke.MethodType makeImpl (Ljava/lang/Class;[Ljava/lang/Class;Z)Ljava/lang/invoke/MethodType;' bytes='108' count='256' iicount='256' level='3' stamp='0.128' comment='tiered' hot_count='256'/>
+<task_queued compile_id='57' method='java.lang.invoke.MethodType &lt;init&gt; (Ljava/lang/Class;[Ljava/lang/Class;)V' bytes='15' count='256' iicount='256' level='3' stamp='0.128' comment='tiered' hot_count='256'/>
+<writer thread='15120'/>
+    128   56       3       java.lang.invoke.MethodType::makeImpl (108 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='58' method='java.util.ImmutableCollections$SetN$SetNIterator next ()Ljava/lang/Object;' bytes='90' count='384' backedge_count='385' iicount='384' level='3' stamp='0.129' comment='tiered' hot_count='384'/>
+<task_queued compile_id='59' method='java.util.stream.FindOps$FindSink cancellationRequested ()Z' bytes='5' count='128' iicount='128' level='1' stamp='0.130' comment='tiered' hot_count='128'/>
+<task_queued compile_id='60' method='java.util.Spliterators$IteratorSpliterator characteristics ()I' bytes='5' count='128' iicount='128' level='1' stamp='0.130' comment='tiered' hot_count='128'/>
+<writer thread='15120'/>
+<nmethod compile_id='56' compiler='c1' level='3' entry='0x000001ae4cc29040' size='5576' address='0x000001ae4cc28d90' relocation_offset='352' insts_offset='688' stub_offset='4304' scopes_data_offset='4552' scopes_pcs_offset='5008' dependencies_offset='5520' nul_chk_table_offset='5528' metadata_offset='4488' method='java.lang.invoke.MethodType makeImpl (Ljava/lang/Class;[Ljava/lang/Class;Z)Ljava/lang/invoke/MethodType;' bytes='108' count='260' iicount='260' stamp='0.130'/>
+    129   58       3       java.util.ImmutableCollections$SetN$SetNIterator::next (90 bytes)
+<nmethod compile_id='58' compiler='c1' level='3' entry='0x000001ae4cc2a560' size='1536' address='0x000001ae4cc2a390' relocation_offset='352' insts_offset='464' stub_offset='1168' scopes_data_offset='1248' scopes_pcs_offset='1328' dependencies_offset='1504' nul_chk_table_offset='1512' metadata_offset='1240' method='java.util.ImmutableCollections$SetN$SetNIterator next ()Ljava/lang/Object;' bytes='90' count='445' backedge_count='425' iicount='445' stamp='0.130'/>
+    130   59       1       java.util.stream.FindOps$FindSink::cancellationRequested (5 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='61' method='java.util.HashMap hash (Ljava/lang/Object;)I' bytes='20' count='384' iicount='384' level='3' stamp='0.131' comment='tiered' hot_count='384'/>
+<writer thread='15120'/>
+<nmethod compile_id='59' compiler='c1' level='1' entry='0x000001ae54155e20' size='664' address='0x000001ae54155c90' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.util.stream.FindOps$FindSink cancellationRequested ()Z' bytes='5' count='145' iicount='145' stamp='0.131'/>
+    130   61       3       java.util.HashMap::hash (20 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='62' method='java.util.ImmutableCollections$SetN$SetNIterator hasNext ()Z' bytes='13' count='384' iicount='384' level='3' stamp='0.131' comment='tiered' hot_count='384'/>
+<writer thread='15120'/>
+<nmethod compile_id='61' compiler='c1' level='3' entry='0x000001ae4cc2abc0' size='1088' address='0x000001ae4cc2aa10' relocation_offset='352' insts_offset='432' stub_offset='880' scopes_data_offset='960' scopes_pcs_offset='984' dependencies_offset='1064' nul_chk_table_offset='1072' metadata_offset='952' method='java.util.HashMap hash (Ljava/lang/Object;)I' bytes='20' count='562' iicount='562' stamp='0.131'/>
+    131   62       3       java.util.ImmutableCollections$SetN$SetNIterator::hasNext (13 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='63' method='java.util.HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object;' bytes='300' count='384' backedge_count='44' iicount='384' level='3' stamp='0.131' comment='tiered' hot_count='384'/>
+<task_queued compile_id='64' method='java.util.HashMap newNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node;' bytes='13' count='384' iicount='384' level='3' stamp='0.131' comment='tiered' hot_count='384'/>
+<task_queued compile_id='65' method='java.util.HashMap$Node &lt;init&gt; (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)V' bytes='26' count='384' iicount='384' level='3' stamp='0.131' comment='tiered' hot_count='384'/>
+<writer thread='15120'/>
+<nmethod compile_id='62' compiler='c1' level='3' entry='0x000001ae4cc2b020' size='856' address='0x000001ae4cc2ae90' relocation_offset='352' insts_offset='400' stub_offset='720' scopes_data_offset='784' scopes_pcs_offset='800' dependencies_offset='848' metadata_offset='776' method='java.util.ImmutableCollections$SetN$SetNIterator hasNext ()Z' bytes='13' count='456' iicount='456' stamp='0.131'/>
+<writer thread='6096'/>
+<task_queued compile_id='66' method='jdk.internal.module.ModuleReferenceImpl moduleResolution ()Ljdk/internal/module/ModuleResolution;' bytes='5' count='128' iicount='128' level='1' stamp='0.132' comment='tiered' hot_count='128'/>
+<writer thread='15120'/>
+    131   63       3       java.util.HashMap::putVal (300 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='67' method='java.util.AbstractCollection &lt;init&gt; ()V' bytes='5' count='512' iicount='512' level='3' stamp='0.132' comment='tiered' hot_count='512'/>
+<task_queued compile_id='68' method='java.lang.module.ModuleDescriptor$Requires modifiers ()Ljava/util/Set;' bytes='5' count='128' iicount='128' level='1' stamp='0.132' comment='tiered' hot_count='128'/>
+<task_queued compile_id='69' method='java.lang.module.ModuleDescriptor$Requires name ()Ljava/lang/String;' bytes='5' count='128' iicount='128' level='1' stamp='0.132' comment='tiered' hot_count='128'/>
+<task_queued compile_id='70' method='java.util.HashMap getNode (Ljava/lang/Object;)Ljava/util/HashMap$Node;' bytes='150' count='640' backedge_count='11' iicount='640' level='3' stamp='0.133' comment='tiered' hot_count='640'/>
+<writer thread='15120'/>
+    133   63       3       java.util.HashMap::putVal (300 bytes)   COMPILE SKIPPED: concurrent class loading
+    133   65       3       java.util.HashMap$Node::&lt;init&gt; (26 bytes)
+<nmethod compile_id='65' compiler='c1' level='3' entry='0x000001ae4cc2b3c0' size='1232' address='0x000001ae4cc2b210' relocation_offset='352' insts_offset='432' stub_offset='1040' scopes_data_offset='1120' scopes_pcs_offset='1160' dependencies_offset='1224' metadata_offset='1096' method='java.util.HashMap$Node &lt;init&gt; (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)V' bytes='26' count='625' iicount='625' stamp='0.134'/>
+    133   70       3       java.util.HashMap::getNode (150 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='71' method='java.util.HashMap get (Ljava/lang/Object;)Ljava/lang/Object;' bytes='19' count='512' iicount='512' level='3' stamp='0.134' comment='tiered' hot_count='512'/>
+<task_queued compile_id='72' method='java.lang.module.ModuleDescriptor requires ()Ljava/util/Set;' bytes='5' count='128' iicount='128' level='1' stamp='0.134' comment='tiered' hot_count='128'/>
+<task_queued compile_id='73' method='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' bytes='13' count='640' iicount='640' level='3' stamp='0.134' comment='tiered' hot_count='640'/>
+<task_queued compile_id='74' method='java.util.HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object;' bytes='300' count='684' backedge_count='75' iicount='684' decompiles='1' level='3' stamp='0.134' comment='tiered' hot_count='684'/>
+<task_queued compile_id='75' method='java.util.HashMap afterNodeInsertion (Z)V' bytes='1' count='751' iicount='751' level='3' stamp='0.134' comment='tiered' hot_count='751'/>
+<writer thread='15120'/>
+<nmethod compile_id='70' compiler='c1' level='3' entry='0x000001ae4cc2b960' size='4352' address='0x000001ae4cc2b710' relocation_offset='352' insts_offset='592' stub_offset='3568' scopes_data_offset='3704' scopes_pcs_offset='3976' dependencies_offset='4280' nul_chk_table_offset='4288' metadata_offset='3688' method='java.util.HashMap getNode (Ljava/lang/Object;)Ljava/util/HashMap$Node;' bytes='150' count='1129' backedge_count='18' iicount='1129' stamp='0.135'/>
+    134   74       3       java.util.HashMap::putVal (300 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='76' method='java.lang.module.ModuleDescriptor isAutomatic ()Z' bytes='5' count='128' iicount='128' level='1' stamp='0.135' comment='tiered' hot_count='128'/>
+<task_queued compile_id='77' method='java.util.HashMap$HashIterator hasNext ()Z' bytes='13' count='768' iicount='768' level='3' stamp='0.135' comment='tiered' hot_count='768'/>
+<task_queued compile_id='78' method='java.util.HashMap$HashIterator nextNode ()Ljava/util/HashMap$Node;' bytes='100' count='768' backedge_count='1605' iicount='768' level='3' stamp='0.136' comment='tiered' hot_count='768'/>
+<writer thread='15120'/>
+<nmethod compile_id='74' compiler='c1' level='3' entry='0x000001ae4cc2cb40' size='6584' address='0x000001ae4cc2c890' relocation_offset='352' insts_offset='688' stub_offset='5232' scopes_data_offset='5456' scopes_pcs_offset='5992' dependencies_offset='6472' nul_chk_table_offset='6480' metadata_offset='5448' method='java.util.HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object;' bytes='300' count='985' backedge_count='88' iicount='985' decompiles='1' stamp='0.136'/>
+    136   78       3       java.util.HashMap$HashIterator::nextNode (100 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='79' method='java.util.ImmutableCollections$Set12 isEmpty ()Z' bytes='2' count='128' iicount='128' level='1' stamp='0.137' comment='tiered' hot_count='128'/>
+<writer thread='15120'/>
+<nmethod compile_id='78' compiler='c1' level='3' entry='0x000001ae4cc2e480' size='2248' address='0x000001ae4cc2e290' relocation_offset='352' insts_offset='496' stub_offset='1776' scopes_data_offset='1872' scopes_pcs_offset='1968' dependencies_offset='2208' nul_chk_table_offset='2216' metadata_offset='1864' method='java.util.HashMap$HashIterator nextNode ()Ljava/util/HashMap$Node;' bytes='100' count='1018' backedge_count='2477' iicount='1018' stamp='0.137'/>
+    136   64       3       java.util.HashMap::newNode (13 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='80' method='java.lang.module.ModuleDescriptor$Exports source ()Ljava/lang/String;' bytes='5' count='128' iicount='128' level='1' stamp='0.137' comment='tiered' hot_count='128'/>
+<task_queued compile_id='81' method='java.lang.module.ModuleDescriptor$Exports targets ()Ljava/util/Set;' bytes='5' count='128' iicount='128' level='1' stamp='0.137' comment='tiered' hot_count='128'/>
+<writer thread='15120'/>
+<nmethod compile_id='64' compiler='c1' level='3' entry='0x000001ae4cc2ed40' size='1512' address='0x000001ae4cc2eb90' relocation_offset='352' insts_offset='432' stub_offset='1232' scopes_data_offset='1312' scopes_pcs_offset='1408' dependencies_offset='1504' metadata_offset='1288' method='java.util.HashMap newNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node;' bytes='13' count='1160' iicount='1160' stamp='0.137'/>
+    137   75       3       java.util.HashMap::afterNodeInsertion (1 bytes)
+<nmethod compile_id='75' compiler='c1' level='3' entry='0x000001ae4cc2f320' size='760' address='0x000001ae4cc2f190' relocation_offset='352' insts_offset='400' stub_offset='624' scopes_data_offset='688' scopes_pcs_offset='704' dependencies_offset='752' metadata_offset='680' method='java.util.HashMap afterNodeInsertion (Z)V' bytes='1' count='1279' iicount='1279' stamp='0.138'/>
+    137   77       3       java.util.HashMap$HashIterator::hasNext (13 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='82' method='java.lang.module.ModuleDescriptor$Exports isQualified ()Z' bytes='18' count='768' iicount='768' level='3' stamp='0.138' comment='tiered' hot_count='768'/>
+<writer thread='15120'/>
+<nmethod compile_id='77' compiler='c1' level='3' entry='0x000001ae4cc2f6a0' size='856' address='0x000001ae4cc2f510' relocation_offset='352' insts_offset='400' stub_offset='720' scopes_data_offset='784' scopes_pcs_offset='800' dependencies_offset='848' metadata_offset='776' method='java.util.HashMap$HashIterator hasNext ()Z' bytes='13' count='1495' iicount='1495' stamp='0.138'/>
+    138   81       1       java.lang.module.ModuleDescriptor$Exports::targets (5 bytes)
+<nmethod compile_id='81' compiler='c1' level='1' entry='0x000001ae54156120' size='664' address='0x000001ae54155f90' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.lang.module.ModuleDescriptor$Exports targets ()Ljava/util/Set;' bytes='5' count='550' iicount='550' stamp='0.138'/>
+<writer thread='6096'/>
+<task_queued compile_id='83' method='java.util.HashMap afterNodeInsertion (Z)V' bytes='1' count='1519' iicount='1519' stamp='0.138' comment='tiered' hot_count='1519'/>
+<writer thread='15120'/>
+    138   80       1       java.lang.module.ModuleDescriptor$Exports::source (5 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='84' method='java.util.ImmutableCollections$SetN isEmpty ()Z' bytes='13' count='768' iicount='768' level='3' stamp='0.138' comment='tiered' hot_count='768'/>
+<writer thread='14836'/>
+    138   83       4       java.util.HashMap::afterNodeInsertion (1 bytes)
+<writer thread='15120'/>
+<nmethod compile_id='80' compiler='c1' level='1' entry='0x000001ae54156420' size='664' address='0x000001ae54156290' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.lang.module.ModuleDescriptor$Exports source ()Ljava/lang/String;' bytes='5' count='561' iicount='561' stamp='0.139'/>
+    138   79       1       java.util.ImmutableCollections$Set12::isEmpty (2 bytes)
+<writer thread='14836'/>
+<nmethod compile_id='83' compiler='c2' level='4' entry='0x000001ae54156700' size='536' address='0x000001ae54156590' relocation_offset='352' insts_offset='368' stub_offset='464' scopes_data_offset='488' scopes_pcs_offset='496' dependencies_offset='528' method='java.util.HashMap afterNodeInsertion (Z)V' bytes='1' count='1690' iicount='1690' stamp='0.139'/>
+<make_not_entrant thread='14836' compile_id='75' compiler='c1' level='3' stamp='0.139'/>
+    138   75       3       java.util.HashMap::afterNodeInsertion (1 bytes)   made not entrant
+<writer thread='15120'/>
+<nmethod compile_id='79' compiler='c1' level='1' entry='0x000001ae54156a20' size='664' address='0x000001ae54156890' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.util.ImmutableCollections$Set12 isEmpty ()Z' bytes='2' count='620' iicount='620' stamp='0.139'/>
+    138   82       3       java.lang.module.ModuleDescriptor$Exports::isQualified (18 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='85' method='java.lang.Object equals (Ljava/lang/Object;)Z' bytes='11' count='640' iicount='640' level='3' stamp='0.139' comment='tiered' hot_count='640'/>
+<task_queued compile_id='86' method='java.util.HashMap putIfAbsent (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' bytes='13' count='768' iicount='768' level='3' stamp='0.139' comment='tiered' hot_count='768'/>
+<task_queued compile_id='87' method='java.util.ImmutableCollections$Set12 contains (Ljava/lang/Object;)Z' bytes='28' count='768' iicount='768' level='3' stamp='0.139' comment='tiered' hot_count='768'/>
+<writer thread='15120'/>
+<nmethod compile_id='82' compiler='c1' level='3' entry='0x000001ae4cc2fa40' size='1120' address='0x000001ae4cc2f890' relocation_offset='352' insts_offset='432' stub_offset='912' scopes_data_offset='992' scopes_pcs_offset='1016' dependencies_offset='1096' nul_chk_table_offset='1104' metadata_offset='984' method='java.lang.module.ModuleDescriptor$Exports isQualified ()Z' bytes='18' count='1683' iicount='1683' stamp='0.139'/>
+    139   84       3       java.util.ImmutableCollections$SetN::isEmpty (13 bytes)
+<nmethod compile_id='84' compiler='c1' level='3' entry='0x000001ae4cc2fea0' size='856' address='0x000001ae4cc2fd10' relocation_offset='352' insts_offset='400' stub_offset='720' scopes_data_offset='784' scopes_pcs_offset='800' dependencies_offset='848' metadata_offset='776' method='java.util.ImmutableCollections$SetN isEmpty ()Z' bytes='13' count='1294' iicount='1294' stamp='0.140'/>
+    139   73       3       java.util.HashMap::put (13 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='88' method='java.lang.String hashCode ()I' bytes='60' count='5632' iicount='5632' stamp='0.140' comment='tiered' hot_count='5632'/>
+<writer thread='14836'/>
+    139   88       4       java.lang.String::hashCode (60 bytes)
+<writer thread='15120'/>
+<nmethod compile_id='73' compiler='c1' level='3' entry='0x000001ae4cc30260' size='1520' address='0x000001ae4cc30090' relocation_offset='352' insts_offset='464' stub_offset='1168' scopes_data_offset='1272' scopes_pcs_offset='1384' dependencies_offset='1496' nul_chk_table_offset='1504' metadata_offset='1256' method='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' bytes='13' count='1213' iicount='1214' stamp='0.140'/>
+    140   86       3       java.util.HashMap::putIfAbsent (13 bytes)
+<nmethod compile_id='86' compiler='c1' level='3' entry='0x000001ae4cc30860' size='1520' address='0x000001ae4cc30690' relocation_offset='352' insts_offset='464' stub_offset='1168' scopes_data_offset='1272' scopes_pcs_offset='1384' dependencies_offset='1496' nul_chk_table_offset='1504' metadata_offset='1256' method='java.util.HashMap putIfAbsent (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' bytes='13' count='1464' iicount='1464' stamp='0.141'/>
+    140   87       3       java.util.ImmutableCollections$Set12::contains (28 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='89' method='java.util.ImmutableCollections$SetN contains (Ljava/lang/Object;)Z' bytes='26' count='640' iicount='640' level='3' stamp='0.141' comment='tiered' hot_count='640'/>
+<task_queued compile_id='90' method='java.util.HashSet add (Ljava/lang/Object;)Z' bytes='20' count='640' iicount='640' level='3' stamp='0.141' comment='tiered' hot_count='640'/>
+<task_queued compile_id='91' method='java.lang.module.ModuleDescriptor exports ()Ljava/util/Set;' bytes='5' count='128' iicount='128' level='1' stamp='0.141' comment='tiered' hot_count='128'/>
+<writer thread='15120'/>
+<nmethod compile_id='87' compiler='c1' level='3' entry='0x000001ae4cc30e60' size='1520' address='0x000001ae4cc30c90' relocation_offset='352' insts_offset='464' stub_offset='1232' scopes_data_offset='1328' scopes_pcs_offset='1376' dependencies_offset='1488' nul_chk_table_offset='1496' metadata_offset='1320' method='java.util.ImmutableCollections$Set12 contains (Ljava/lang/Object;)Z' bytes='28' count='1281' iicount='1281' stamp='0.141'/>
+    141   85       3       java.lang.Object::equals (11 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='92' method='java.lang.module.ModuleDescriptor provides ()Ljava/util/Set;' bytes='5' count='128' iicount='128' level='1' stamp='0.142' comment='tiered' hot_count='128'/>
+<writer thread='15120'/>
+<nmethod compile_id='85' compiler='c1' level='3' entry='0x000001ae4cc31420' size='856' address='0x000001ae4cc31290' relocation_offset='352' insts_offset='400' stub_offset='720' scopes_data_offset='784' scopes_pcs_offset='800' dependencies_offset='848' metadata_offset='776' method='java.lang.Object equals (Ljava/lang/Object;)Z' bytes='11' count='1081' iicount='1081' stamp='0.142'/>
+    141   89       3       java.util.ImmutableCollections$SetN::contains (26 bytes)
+<nmethod compile_id='89' compiler='c1' level='3' entry='0x000001ae4cc317e0' size='1512' address='0x000001ae4cc31610' relocation_offset='352' insts_offset='464' stub_offset='1200' scopes_data_offset='1304' scopes_pcs_offset='1376' dependencies_offset='1504' metadata_offset='1288' method='java.util.ImmutableCollections$SetN contains (Ljava/lang/Object;)Z' bytes='26' count='753' iicount='753' stamp='0.143'/>
+    142   71       3       java.util.HashMap::get (19 bytes)
+<nmethod compile_id='71' compiler='c1' level='3' entry='0x000001ae4cc31dc0' size='1040' address='0x000001ae4cc31c10' relocation_offset='352' insts_offset='432' stub_offset='816' scopes_data_offset='896' scopes_pcs_offset='936' dependencies_offset='1016' nul_chk_table_offset='1024' metadata_offset='888' method='java.util.HashMap get (Ljava/lang/Object;)Ljava/lang/Object;' bytes='19' count='1103' iicount='1103' stamp='0.143'/>
+    143   90       3       java.util.HashSet::add (20 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='93' method='java.util.ImmutableCollections$SetN$SetNIterator hasNext ()Z' bytes='13' count='5531' iicount='5531' stamp='0.143' comment='tiered' hot_count='5531'/>
+<task_queued compile_id='94' method='java.util.HashMap resize ()[Ljava/util/HashMap$Node;' bytes='356' count='325' backedge_count='6709' iicount='325' level='3' stamp='0.143' comment='tiered' hot_count='325'/>
+<writer thread='15120'/>
+<nmethod compile_id='90' compiler='c1' level='3' entry='0x000001ae4cc32240' size='1160' address='0x000001ae4cc32090' relocation_offset='352' insts_offset='432' stub_offset='944' scopes_data_offset='1032' scopes_pcs_offset='1056' dependencies_offset='1136' nul_chk_table_offset='1144' metadata_offset='1016' method='java.util.HashSet add (Ljava/lang/Object;)Z' bytes='20' count='694' iicount='694' stamp='0.144'/>
+    143   94       3       java.util.HashMap::resize (356 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='95' method='java.util.ImmutableCollections$SetN$SetNIterator next ()Ljava/lang/Object;' bytes='90' count='6589' backedge_count='6417' iicount='6589' stamp='0.144' comment='tiered' hot_count='6589'/>
+<task_queued compile_id='96' method='java.lang.module.ModuleDescriptor uses ()Ljava/util/Set;' bytes='5' count='128' iicount='128' level='1' stamp='0.144' comment='tiered' hot_count='128'/>
+<task_queued compile_id='97' method='java.util.ImmutableCollections$Set12$1 hasNext ()Z' bytes='13' count='640' iicount='640' level='3' stamp='0.145' comment='tiered' hot_count='640'/>
+<writer thread='15120'/>
+<nmethod compile_id='94' compiler='c1' level='3' entry='0x000001ae4cc32840' size='7264' address='0x000001ae4cc32590' relocation_offset='352' consts_offset='656' insts_offset='688' stub_offset='6096' scopes_data_offset='6176' scopes_pcs_offset='6512' dependencies_offset='7104' nul_chk_table_offset='7112' metadata_offset='6168' method='java.util.HashMap resize ()[Ljava/util/HashMap$Node;' bytes='356' count='411' backedge_count='9406' iicount='411' stamp='0.145'/>
+    145   76       1       java.lang.module.ModuleDescriptor::isAutomatic (5 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='98' method='java.lang.module.ModuleDescriptor$Exports isQualified ()Z' bytes='18' count='6656' iicount='6656' stamp='0.145' comment='tiered' hot_count='6656'/>
+<writer thread='15120'/>
+<nmethod compile_id='76' compiler='c1' level='1' entry='0x000001ae54156d20' size='664' address='0x000001ae54156b90' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.lang.module.ModuleDescriptor isAutomatic ()Z' bytes='5' count='319' iicount='319' stamp='0.145'/>
+    145   67       3       java.util.AbstractCollection::&lt;init&gt; (5 bytes)
+<nmethod compile_id='67' compiler='c1' level='3' entry='0x000001ae4cc343c0' size='904' address='0x000001ae4cc34210' relocation_offset='352' insts_offset='432' stub_offset='720' scopes_data_offset='800' scopes_pcs_offset='832' dependencies_offset='896' metadata_offset='776' method='java.util.AbstractCollection &lt;init&gt; ()V' bytes='5' count='822' iicount='823' stamp='0.146'/>
+    145   97       3       java.util.ImmutableCollections$Set12$1::hasNext (13 bytes)
+<nmethod compile_id='97' compiler='c1' level='3' entry='0x000001ae4cc347a0' size='856' address='0x000001ae4cc34610' relocation_offset='352' insts_offset='400' stub_offset='720' scopes_data_offset='784' scopes_pcs_offset='800' dependencies_offset='848' metadata_offset='776' method='java.util.ImmutableCollections$Set12$1 hasNext ()Z' bytes='13' count='675' iicount='675' stamp='0.146'/>
+<writer thread='14836'/>
+<nmethod compile_id='88' compiler='c2' level='4' entry='0x000001ae54157020' size='1272' address='0x000001ae54156e90' relocation_offset='352' insts_offset='400' stub_offset='976' scopes_data_offset='1024' scopes_pcs_offset='1152' dependencies_offset='1248' nul_chk_table_offset='1256' metadata_offset='1000' method='java.lang.String hashCode ()I' bytes='60' count='10240' iicount='10241' stamp='0.146'/>
+<make_not_entrant thread='14836' compile_id='4' compiler='c1' level='3' stamp='0.146'/>
+    146    4       3       java.lang.String::hashCode (60 bytes)   made not entrant
+<writer thread='15120'/>
+    146   72       1       java.lang.module.ModuleDescriptor::requires (5 bytes)
+<writer thread='14836'/>
+    146   95       4       java.util.ImmutableCollections$SetN$SetNIterator::next (90 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='99' method='java.util.HashMap$KeyIterator next ()Ljava/lang/Object;' bytes='8' count='768' iicount='768' level='3' stamp='0.146' comment='tiered' hot_count='768'/>
+<writer thread='15120'/>
+<nmethod compile_id='72' compiler='c1' level='1' entry='0x000001ae541575a0' size='664' address='0x000001ae54157410' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.lang.module.ModuleDescriptor requires ()Ljava/util/Set;' bytes='5' count='186' iicount='186' stamp='0.147'/>
+<writer thread='6096'/>
+<task_queued compile_id='100' method='jdk.internal.module.ModuleReferenceImpl hashCode ()I' bytes='56' count='768' iicount='768' level='3' stamp='0.147' comment='tiered' hot_count='768'/>
+<task_queued compile_id='101' method='java.lang.module.ResolvedModule hashCode ()I' bytes='16' count='640' iicount='640' level='3' stamp='0.147' comment='tiered' hot_count='640'/>
+<writer thread='15120'/>
+    146   99       3       java.util.HashMap$KeyIterator::next (8 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='102' method='java.util.KeyValueHolder getKey ()Ljava/lang/Object;' bytes='5' count='128' iicount='128' level='1' stamp='0.147' comment='tiered' hot_count='128'/>
+<task_queued compile_id='103' method='java.util.KeyValueHolder getValue ()Ljava/lang/Object;' bytes='5' count='128' iicount='128' level='1' stamp='0.147' comment='tiered' hot_count='128'/>
+<writer thread='15120'/>
+<nmethod compile_id='99' compiler='c1' level='3' entry='0x000001ae4cc34b40' size='904' address='0x000001ae4cc34990' relocation_offset='352' insts_offset='432' stub_offset='688' scopes_data_offset='768' scopes_pcs_offset='800' dependencies_offset='880' nul_chk_table_offset='888' metadata_offset='760' method='java.util.HashMap$KeyIterator next ()Ljava/lang/Object;' bytes='8' count='801' iicount='801' stamp='0.147'/>
+    146  100       3       jdk.internal.module.ModuleReferenceImpl::hashCode (56 bytes)
+<nmethod compile_id='100' compiler='c1' level='3' entry='0x000001ae4cc34f80' size='2016' address='0x000001ae4cc34d90' relocation_offset='352' insts_offset='496' stub_offset='1552' scopes_data_offset='1688' scopes_pcs_offset='1800' dependencies_offset='1976' nul_chk_table_offset='1984' metadata_offset='1656' method='jdk.internal.module.ModuleReferenceImpl hashCode ()I' bytes='56' count='809' iicount='809' stamp='0.148'/>
+<writer thread='6096'/>
+<task_queued compile_id='104' method='java.util.concurrent.ConcurrentHashMap$Node &lt;init&gt; (ILjava/lang/Object;Ljava/lang/Object;)V' bytes='20' count='640' iicount='640' level='3' stamp='0.148' comment='tiered' hot_count='640'/>
+<task_queued compile_id='105' method='java.util.concurrent.ConcurrentHashMap putVal (Ljava/lang/Object;Ljava/lang/Object;Z)Ljava/lang/Object;' bytes='432' count='691' backedge_count='11' iicount='691' level='3' stamp='0.148' comment='tiered' hot_count='691'/>
+<writer thread='15120'/>
+    148  105   !   3       java.util.concurrent.ConcurrentHashMap::putVal (432 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='106' method='java.util.concurrent.ConcurrentHashMap addCount (JI)V' bytes='280' count='768' iicount='768' level='3' stamp='0.148' comment='tiered' hot_count='768'/>
+<nmethod compile_id='107' compile_kind='c2n' compiler='' level='0' entry='0x000001ae541578a0' size='1016' address='0x000001ae54157710' relocation_offset='352' consts_offset='1016' insts_offset='400' method='jdk.internal.misc.Unsafe compareAndSetLong (Ljava/lang/Object;JJJ)Z' bytes='0' count='768' iicount='768' stamp='0.148'/>
+    148  107     n 0       jdk.internal.misc.Unsafe::compareAndSetLong (native)   
+<nmethod compile_id='108' compile_kind='c2n' compiler='' level='0' entry='0x000001ae54157d20' size='1056' address='0x000001ae54157b90' relocation_offset='352' consts_offset='1056' insts_offset='400' method='jdk.internal.misc.Unsafe compareAndSetReference (Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z' bytes='0' count='768' iicount='768' stamp='0.148'/>
+    148  108     n 0       jdk.internal.misc.Unsafe::compareAndSetReference (native)   
+<writer thread='14836'/>
+<nmethod compile_id='95' compiler='c2' level='4' entry='0x000001ae541581a0' size='920' address='0x000001ae54158010' relocation_offset='352' insts_offset='400' stub_offset='656' scopes_data_offset='688' scopes_pcs_offset='776' dependencies_offset='888' nul_chk_table_offset='896' metadata_offset='680' method='java.util.ImmutableCollections$SetN$SetNIterator next ()Ljava/lang/Object;' bytes='90' count='10148' backedge_count='9927' iicount='10149' stamp='0.149'/>
+<make_not_entrant thread='14836' compile_id='58' compiler='c1' level='3' stamp='0.149'/>
+    148   58       3       java.util.ImmutableCollections$SetN$SetNIterator::next (90 bytes)   made not entrant
+<writer thread='6096'/>
+<task_queued compile_id='109' method='java.util.concurrent.ConcurrentHashMap casTabAt ([Ljava/util/concurrent/ConcurrentHashMap$Node;ILjava/util/concurrent/ConcurrentHashMap$Node;Ljava/util/concurrent/ConcurrentHashMap$Node;)Z' bytes='21' count='768' iicount='768' level='3' stamp='0.149' comment='tiered' hot_count='768'/>
+<writer thread='14836'/>
+    148   98       4       java.lang.module.ModuleDescriptor$Exports::isQualified (18 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='110' method='java.lang.module.ModuleDescriptor packages ()Ljava/util/Set;' bytes='5' count='128' iicount='128' level='1' stamp='0.149' comment='tiered' hot_count='128'/>
+<writer thread='14836'/>
+<nmethod compile_id='98' compiler='c2' level='4' entry='0x000001ae541585a0' size='752' address='0x000001ae54158410' relocation_offset='352' insts_offset='400' stub_offset='592' scopes_data_offset='640' scopes_pcs_offset='664' dependencies_offset='728' nul_chk_table_offset='736' metadata_offset='616' method='java.lang.module.ModuleDescriptor$Exports isQualified ()Z' bytes='18' count='8037' iicount='8037' stamp='0.150'/>
+<make_not_entrant thread='14836' compile_id='82' compiler='c1' level='3' stamp='0.150'/>
+    149   82       3       java.lang.module.ModuleDescriptor$Exports::isQualified (18 bytes)   made not entrant
+    149   93       4       java.util.ImmutableCollections$SetN$SetNIterator::hasNext (13 bytes)
+<nmethod compile_id='93' compiler='c2' level='4' entry='0x000001ae54158880' size='568' address='0x000001ae54158710' relocation_offset='352' insts_offset='368' stub_offset='496' scopes_data_offset='520' scopes_pcs_offset='528' dependencies_offset='560' method='java.util.ImmutableCollections$SetN$SetNIterator hasNext ()Z' bytes='13' count='10416' iicount='10416' stamp='0.150'/>
+<make_not_entrant thread='14836' compile_id='62' compiler='c1' level='3' stamp='0.150'/>
+    150   62       3       java.util.ImmutableCollections$SetN$SetNIterator::hasNext (13 bytes)   made not entrant
+<writer thread='6096'/>
+<task_queued compile_id='111' method='java.lang.module.ModuleDescriptor$Version toString ()Ljava/lang/String;' bytes='5' count='128' iicount='128' level='1' stamp='0.151' comment='tiered' hot_count='128'/>
+<writer thread='15120'/>
+<nmethod compile_id='105' compiler='c1' level='3' entry='0x000001ae4cc35900' size='10440' address='0x000001ae4cc35590' relocation_offset='352' insts_offset='880' stub_offset='7760' scopes_data_offset='8056' scopes_pcs_offset='9416' dependencies_offset='10072' handler_table_offset='10080' nul_chk_table_offset='10392' metadata_offset='8024' method='java.util.concurrent.ConcurrentHashMap putVal (Ljava/lang/Object;Ljava/lang/Object;Z)Ljava/lang/Object;' bytes='432' count='950' backedge_count='19' iicount='950' stamp='0.151'/>
+    151  104       3       java.util.concurrent.ConcurrentHashMap$Node::&lt;init&gt; (20 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='112' method='java.lang.module.ResolvedModule reference ()Ljava/lang/module/ModuleReference;' bytes='5' count='128' iicount='128' level='1' stamp='0.151' comment='tiered' hot_count='128'/>
+<writer thread='15120'/>
+<nmethod compile_id='104' compiler='c1' level='3' entry='0x000001ae4cc38040' size='1136' address='0x000001ae4cc37e90' relocation_offset='352' insts_offset='432' stub_offset='944' scopes_data_offset='1024' scopes_pcs_offset='1064' dependencies_offset='1128' metadata_offset='1000' method='java.util.concurrent.ConcurrentHashMap$Node &lt;init&gt; (ILjava/lang/Object;Ljava/lang/Object;)V' bytes='20' count='954' iicount='954' stamp='0.151'/>
+    151  106       3       java.util.concurrent.ConcurrentHashMap::addCount (280 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='113' method='java.util.HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object;' bytes='300' count='6572' backedge_count='800' iicount='6572' decompiles='1' stamp='0.152' comment='tiered' hot_count='6572'/>
+<writer thread='14836'/>
+    152  113       4       java.util.HashMap::putVal (300 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='114' method='java.util.HashMap newNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node;' bytes='13' count='6620' iicount='6620' stamp='0.152' comment='tiered' hot_count='6620'/>
+<task_queued compile_id='115' method='java.lang.module.ResolvedModule configuration ()Ljava/lang/module/Configuration;' bytes='5' count='128' iicount='128' level='1' stamp='0.153' comment='tiered' hot_count='128'/>
+<writer thread='15120'/>
+<nmethod compile_id='106' compiler='c1' level='3' entry='0x000001ae4cc38560' size='3728' address='0x000001ae4cc38310' relocation_offset='352' insts_offset='592' stub_offset='2896' scopes_data_offset='3080' scopes_pcs_offset='3416' dependencies_offset='3688' nul_chk_table_offset='3696' metadata_offset='3064' method='java.util.concurrent.ConcurrentHashMap addCount (JI)V' bytes='280' count='953' iicount='953' stamp='0.153'/>
+    153  101       3       java.lang.module.ResolvedModule::hashCode (16 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='116' method='java.lang.module.ModuleDescriptor isOpen ()Z' bytes='5' count='128' iicount='128' level='1' stamp='0.154' comment='tiered' hot_count='128'/>
+<writer thread='15120'/>
+<nmethod compile_id='101' compiler='c1' level='3' entry='0x000001ae4cc393c0' size='1328' address='0x000001ae4cc39210' relocation_offset='352' insts_offset='432' stub_offset='1040' scopes_data_offset='1136' scopes_pcs_offset='1184' dependencies_offset='1296' nul_chk_table_offset='1304' metadata_offset='1128' method='java.lang.module.ResolvedModule hashCode ()I' bytes='16' count='977' iicount='977' stamp='0.154'/>
+<writer thread='6096'/>
+<task_queued compile_id='117' method='java.util.HashMap size ()I' bytes='5' count='128' iicount='128' level='1' stamp='0.154' comment='tiered' hot_count='128'/>
+<writer thread='15120'/>
+    154  109       3       java.util.concurrent.ConcurrentHashMap::casTabAt (21 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='118' method='java.lang.module.ModuleDescriptor$Provides service ()Ljava/lang/String;' bytes='5' count='128' iicount='128' level='1' stamp='0.154' comment='tiered' hot_count='128'/>
+<writer thread='15120'/>
+<nmethod compile_id='109' compiler='c1' level='3' entry='0x000001ae4cc39920' size='864' address='0x000001ae4cc39790' relocation_offset='352' insts_offset='400' stub_offset='720' scopes_data_offset='784' scopes_pcs_offset='808' dependencies_offset='856' metadata_offset='776' method='java.util.concurrent.ConcurrentHashMap casTabAt ([Ljava/util/concurrent/ConcurrentHashMap$Node;ILjava/util/concurrent/ConcurrentHashMap$Node;Ljava/util/concurrent/ConcurrentHashMap$Node;)Z' bytes='21' count='821' iicount='821' stamp='0.154'/>
+    154  110       1       java.lang.module.ModuleDescriptor::packages (5 bytes)
+<nmethod compile_id='110' compiler='c1' level='1' entry='0x000001ae54158ba0' size='664' address='0x000001ae54158a10' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.lang.module.ModuleDescriptor packages ()Ljava/util/Set;' bytes='5' count='186' iicount='186' stamp='0.155'/>
+    154  112       1       java.lang.module.ResolvedModule::reference (5 bytes)
+<nmethod compile_id='112' compiler='c1' level='1' entry='0x000001ae54158ea0' size='664' address='0x000001ae54158d10' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.lang.module.ResolvedModule reference ()Ljava/lang/module/ModuleReference;' bytes='5' count='310' iicount='310' stamp='0.155'/>
+    155  118       1       java.lang.module.ModuleDescriptor$Provides::service (5 bytes)
+<nmethod compile_id='118' compiler='c1' level='1' entry='0x000001ae541591a0' size='664' address='0x000001ae54159010' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.lang.module.ModuleDescriptor$Provides service ()Ljava/lang/String;' bytes='5' count='160' iicount='160' stamp='0.156'/>
+    155   92       1       java.lang.module.ModuleDescriptor::provides (5 bytes)
+<nmethod compile_id='92' compiler='c1' level='1' entry='0x000001ae541594a0' size='664' address='0x000001ae54159310' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.lang.module.ModuleDescriptor provides ()Ljava/util/Set;' bytes='5' count='251' iicount='251' stamp='0.156'/>
+    156   69       1       java.lang.module.ModuleDescriptor$Requires::name (5 bytes)
+<nmethod compile_id='69' compiler='c1' level='1' entry='0x000001ae541597a0' size='664' address='0x000001ae54159610' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.lang.module.ModuleDescriptor$Requires name ()Ljava/lang/String;' bytes='5' count='396' iicount='396' stamp='0.156'/>
+    156   68       1       java.lang.module.ModuleDescriptor$Requires::modifiers (5 bytes)
+<nmethod compile_id='68' compiler='c1' level='1' entry='0x000001ae54159aa0' size='664' address='0x000001ae54159910' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.lang.module.ModuleDescriptor$Requires modifiers ()Ljava/util/Set;' bytes='5' count='264' iicount='264' stamp='0.157'/>
+    156  102       1       java.util.KeyValueHolder::getKey (5 bytes)
+<nmethod compile_id='102' compiler='c1' level='1' entry='0x000001ae54159da0' size='664' address='0x000001ae54159c10' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.util.KeyValueHolder getKey ()Ljava/lang/Object;' bytes='5' count='139' iicount='139' stamp='0.157'/>
+    157  103       1       java.util.KeyValueHolder::getValue (5 bytes)
+<nmethod compile_id='103' compiler='c1' level='1' entry='0x000001ae5415a0a0' size='664' address='0x000001ae54159f10' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.util.KeyValueHolder getValue ()Ljava/lang/Object;' bytes='5' count='139' iicount='139' stamp='0.158'/>
+    157   96       1       java.lang.module.ModuleDescriptor::uses (5 bytes)
+<nmethod compile_id='96' compiler='c1' level='1' entry='0x000001ae5415a3a0' size='664' address='0x000001ae5415a210' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.lang.module.ModuleDescriptor uses ()Ljava/util/Set;' bytes='5' count='148' iicount='148' stamp='0.158'/>
+    158   66       1       jdk.internal.module.ModuleReferenceImpl::moduleResolution (5 bytes)
+<nmethod compile_id='66' compiler='c1' level='1' entry='0x000001ae5415a6a0' size='664' address='0x000001ae5415a510' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='jdk.internal.module.ModuleReferenceImpl moduleResolution ()Ljdk/internal/module/ModuleResolution;' bytes='5' count='198' iicount='198' stamp='0.159'/>
+    158   91       1       java.lang.module.ModuleDescriptor::exports (5 bytes)
+<nmethod compile_id='91' compiler='c1' level='1' entry='0x000001ae5415a9a0' size='664' address='0x000001ae5415a810' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.lang.module.ModuleDescriptor exports ()Ljava/util/Set;' bytes='5' count='273' iicount='273' stamp='0.159'/>
+    159  115       1       java.lang.module.ResolvedModule::configuration (5 bytes)
+<nmethod compile_id='115' compiler='c1' level='1' entry='0x000001ae5415aca0' size='664' address='0x000001ae5415ab10' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.lang.module.ResolvedModule configuration ()Ljava/lang/module/Configuration;' bytes='5' count='145' iicount='145' stamp='0.160'/>
+    159  116       1       java.lang.module.ModuleDescriptor::isOpen (5 bytes)
+<nmethod compile_id='116' compiler='c1' level='1' entry='0x000001ae5415afa0' size='664' address='0x000001ae5415ae10' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.lang.module.ModuleDescriptor isOpen ()Z' bytes='5' count='132' iicount='132' stamp='0.160'/>
+    159   57       3       java.lang.invoke.MethodType::&lt;init&gt; (15 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='119' method='java.lang.StringLatin1 indexOfChar ([BIII)I' bytes='33' count='189' backedge_count='3072' iicount='189' level='3' stamp='0.160' comment='tiered' hot_count='189'/>
+<writer thread='15120'/>
+<nmethod compile_id='57' compiler='c1' level='3' entry='0x000001ae4cc39cc0' size='1120' address='0x000001ae4cc39b10' relocation_offset='352' insts_offset='432' stub_offset='944' scopes_data_offset='1016' scopes_pcs_offset='1048' dependencies_offset='1112' metadata_offset='1000' method='java.lang.invoke.MethodType &lt;init&gt; (Ljava/lang/Class;[Ljava/lang/Class;)V' bytes='15' count='260' iicount='260' stamp='0.160'/>
+<writer thread='6096'/>
+<task_queued compile_id='120' method='java.util.Arrays copyOfRange ([BII)[B' bytes='64' count='384' iicount='384' level='3' stamp='0.160' comment='tiered' hot_count='384'/>
+<writer thread='15120'/>
+    160  119       3       java.lang.StringLatin1::indexOfChar (33 bytes)
+<nmethod compile_id='119' compiler='c1' level='3' entry='0x000001ae4cc3a140' size='1232' address='0x000001ae4cc39f90' relocation_offset='352' insts_offset='432' stub_offset='944' scopes_data_offset='1008' scopes_pcs_offset='1072' dependencies_offset='1200' nul_chk_table_offset='1208' metadata_offset='1000' method='java.lang.StringLatin1 indexOfChar ([BIII)I' bytes='33' count='234' backedge_count='4218' iicount='234' stamp='0.161'/>
+    160  120       3       java.util.Arrays::copyOfRange (64 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='121' method='java.lang.StringUTF16 getChar ([BI)C' bytes='60' count='24448' iicount='24448' stamp='0.162' comment='tiered' hot_count='24448'/>
+<writer thread='15120'/>
+<nmethod compile_id='120' compiler='c1' level='3' entry='0x000001ae4cc3a700' size='3824' address='0x000001ae4cc3a490' relocation_offset='352' insts_offset='624' stub_offset='2800' scopes_data_offset='3048' scopes_pcs_offset='3416' dependencies_offset='3800' nul_chk_table_offset='3808' oops_offset='2984' metadata_offset='2992' method='java.util.Arrays copyOfRange ([BII)[B' bytes='64' count='384' iicount='384' stamp='0.162'/>
+<writer thread='6096'/>
+<task_queued compile_id='122' method='java.lang.StringUTF16 getChars ([BII[CI)V' bytes='42' count='161' backedge_count='30720' iicount='161' level='3' stamp='0.162' comment='tiered' hot_count='161'/>
+<writer thread='15120'/>
+    162  122       3       java.lang.StringUTF16::getChars (42 bytes)
+<nmethod compile_id='122' compiler='c1' level='3' entry='0x000001ae4cc3b560' size='1768' address='0x000001ae4cc3b390' relocation_offset='352' insts_offset='464' stub_offset='1232' scopes_data_offset='1328' scopes_pcs_offset='1512' dependencies_offset='1720' nul_chk_table_offset='1728' metadata_offset='1304' method='java.lang.StringUTF16 getChars ([BII[CI)V' bytes='42' count='178' backedge_count='33947' iicount='178' stamp='0.163'/>
+    163  111       1       java.lang.module.ModuleDescriptor$Version::toString (5 bytes)
+<nmethod compile_id='111' compiler='c1' level='1' entry='0x000001ae5415b2a0' size='664' address='0x000001ae5415b110' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.lang.module.ModuleDescriptor$Version toString ()Ljava/lang/String;' bytes='5' count='129' iicount='129' stamp='0.163'/>
+    163  117       1       java.util.HashMap::size (5 bytes)
+<nmethod compile_id='117' compiler='c1' level='1' entry='0x000001ae5415b5a0' size='664' address='0x000001ae5415b410' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.util.HashMap size ()I' bytes='5' count='129' iicount='129' stamp='0.164'/>
+    163   60       1       java.util.Spliterators$IteratorSpliterator::characteristics (5 bytes)
+<nmethod compile_id='60' compiler='c1' level='1' entry='0x000001ae5415b8a0' size='664' address='0x000001ae5415b710' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.util.Spliterators$IteratorSpliterator characteristics ()I' bytes='5' count='134' iicount='134' stamp='0.164'/>
+<writer thread='6096'/>
+<task_queued compile_id='123' method='java.util.concurrent.ConcurrentHashMap get (Ljava/lang/Object;)Ljava/lang/Object;' bytes='162' count='384' backedge_count='2' iicount='384' level='3' stamp='0.167' comment='tiered' hot_count='384'/>
+<writer thread='15120'/>
+    166  123       3       java.util.concurrent.ConcurrentHashMap::get (162 bytes)
+<nmethod compile_id='123' compiler='c1' level='3' entry='0x000001ae4cc3bce0' size='4120' address='0x000001ae4cc3ba90' relocation_offset='352' insts_offset='592' stub_offset='3280' scopes_data_offset='3432' scopes_pcs_offset='3720' dependencies_offset='4056' nul_chk_table_offset='4064' metadata_offset='3416' method='java.util.concurrent.ConcurrentHashMap get (Ljava/lang/Object;)Ljava/lang/Object;' bytes='162' count='384' backedge_count='2' iicount='384' stamp='0.168'/>
+<writer thread='6096'/>
+<task_queued compile_id='124' method='java.lang.AbstractStringBuilder ensureCapacityInternal (I)V' bytes='39' count='512' iicount='512' level='3' stamp='0.169' comment='tiered' hot_count='512'/>
+<task_queued compile_id='125' method='java.lang.AbstractStringBuilder isLatin1 ()Z' bytes='19' count='386' iicount='386' level='3' stamp='0.169' comment='tiered' hot_count='386'/>
+<writer thread='15120'/>
+    169  124       3       java.lang.AbstractStringBuilder::ensureCapacityInternal (39 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='126' method='java.lang.String indexOf (II)I' bytes='29' count='256' iicount='256' level='3' stamp='0.170' comment='tiered' hot_count='256'/>
+<writer thread='14836'/>
+<nmethod compile_id='113' compiler='c2' level='4' entry='0x000001ae5415bc00' size='4176' address='0x000001ae5415ba10' relocation_offset='352' insts_offset='496' stub_offset='2864' scopes_data_offset='2968' scopes_pcs_offset='3656' dependencies_offset='3960' handler_table_offset='3968' nul_chk_table_offset='4160' metadata_offset='2920' method='java.util.HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object;' bytes='300' count='7108' backedge_count='815' iicount='7108' decompiles='1' stamp='0.170'/>
+<make_not_entrant thread='14836' compile_id='74' compiler='c1' level='3' stamp='0.170'/>
+    169   74       3       java.util.HashMap::putVal (300 bytes)   made not entrant
+<writer thread='15120'/>
+<nmethod compile_id='124' compiler='c1' level='3' entry='0x000001ae4cc3ccc0' size='1192' address='0x000001ae4cc3cb10' relocation_offset='352' insts_offset='432' stub_offset='912' scopes_data_offset='1008' scopes_pcs_offset='1072' dependencies_offset='1168' nul_chk_table_offset='1176' metadata_offset='1000' method='java.lang.AbstractStringBuilder ensureCapacityInternal (I)V' bytes='39' count='584' iicount='584' stamp='0.170'/>
+    169  125       3       java.lang.AbstractStringBuilder::isLatin1 (19 bytes)
+<writer thread='14836'/>
+    169  114       4       java.util.HashMap::newNode (13 bytes)
+<writer thread='15120'/>
+<nmethod compile_id='125' compiler='c1' level='3' entry='0x000001ae4cc3d1a0' size='856' address='0x000001ae4cc3d010' relocation_offset='352' insts_offset='400' stub_offset='720' scopes_data_offset='784' scopes_pcs_offset='800' dependencies_offset='848' metadata_offset='776' method='java.lang.AbstractStringBuilder isLatin1 ()Z' bytes='19' count='442' iicount='442' stamp='0.170'/>
+    170  126       3       java.lang.String::indexOf (29 bytes)
+<nmethod compile_id='126' compiler='c1' level='3' entry='0x000001ae4cc3d560' size='1336' address='0x000001ae4cc3d390' relocation_offset='352' insts_offset='464' stub_offset='1072' scopes_data_offset='1176' scopes_pcs_offset='1232' dependencies_offset='1328' metadata_offset='1160' method='java.lang.String indexOf (II)I' bytes='29' count='257' iicount='257' stamp='0.171'/>
+<writer thread='14836'/>
+<nmethod compile_id='114' compiler='c2' level='4' entry='0x000001ae5415cc20' size='800' address='0x000001ae5415ca90' relocation_offset='352' insts_offset='400' stub_offset='656' scopes_data_offset='696' scopes_pcs_offset='720' dependencies_offset='768' handler_table_offset='776' metadata_offset='680' method='java.util.HashMap newNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node;' bytes='13' count='7027' iicount='7027' stamp='0.171'/>
+<make_not_entrant thread='14836' compile_id='64' compiler='c1' level='3' stamp='0.171'/>
+    171   64       3       java.util.HashMap::newNode (13 bytes)   made not entrant
+    171  121       4       java.lang.StringUTF16::getChar (60 bytes)
+<nmethod compile_id='121' compiler='c2' level='4' entry='0x000001ae5415cfa0' size='776' address='0x000001ae5415ce10' relocation_offset='352' insts_offset='400' stub_offset='592' scopes_data_offset='624' scopes_pcs_offset='672' dependencies_offset='752' nul_chk_table_offset='760' metadata_offset='616' method='java.lang.StringUTF16 getChar ([BI)C' bytes='60' count='34128' iicount='34128' stamp='0.172'/>
+<writer thread='6096'/>
+<task_queued compile_id='127' method='java.lang.String indexOf (I)I' bytes='7' count='256' iicount='256' level='3' stamp='0.176' comment='tiered' hot_count='256'/>
+<writer thread='15120'/>
+    175  127       3       java.lang.String::indexOf (7 bytes)
+<nmethod compile_id='127' compiler='c1' level='3' entry='0x000001ae4cc3dae0' size='1472' address='0x000001ae4cc3d910' relocation_offset='352' insts_offset='464' stub_offset='1168' scopes_data_offset='1280' scopes_pcs_offset='1352' dependencies_offset='1464' metadata_offset='1256' method='java.lang.String indexOf (I)I' bytes='7' count='256' iicount='256' stamp='0.176'/>
+<writer thread='6096'/>
+<task_queued compile_id='128' method='java.util.zip.ZipUtils SH ([BI)I' bytes='21' count='256' iicount='256' level='3' stamp='0.178' comment='tiered' hot_count='256'/>
+<writer thread='15120'/>
+    178  128       3       java.util.zip.ZipUtils::SH (21 bytes)
+<nmethod compile_id='128' compiler='c1' level='3' entry='0x000001ae4cc3e0a0' size='928' address='0x000001ae4cc3df10' relocation_offset='352' insts_offset='400' stub_offset='688' scopes_data_offset='752' scopes_pcs_offset='784' dependencies_offset='896' nul_chk_table_offset='904' metadata_offset='744' method='java.util.zip.ZipUtils SH ([BI)I' bytes='21' count='395' iicount='395' stamp='0.179'/>
+<writer thread='6096'/>
+<task_queued compile_id='129' method='java.util.HashMap$Node getKey ()Ljava/lang/Object;' bytes='5' count='128' iicount='128' level='1' stamp='0.180' comment='tiered' hot_count='128'/>
+<task_queued compile_id='130' method='java.util.HashMap$Node getValue ()Ljava/lang/Object;' bytes='5' count='128' iicount='128' level='1' stamp='0.180' comment='tiered' hot_count='128'/>
+<writer thread='15120'/>
+    180  129       1       java.util.HashMap$Node::getKey (5 bytes)
+<nmethod compile_id='129' compiler='c1' level='1' entry='0x000001ae5415d320' size='664' address='0x000001ae5415d190' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.util.HashMap$Node getKey ()Ljava/lang/Object;' bytes='5' count='148' iicount='148' stamp='0.181'/>
+    180  130       1       java.util.HashMap$Node::getValue (5 bytes)
+<nmethod compile_id='130' compiler='c1' level='1' entry='0x000001ae5415d620' size='664' address='0x000001ae5415d490' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.util.HashMap$Node getValue ()Ljava/lang/Object;' bytes='5' count='147' iicount='147' stamp='0.181'/>
+<writer thread='6096'/>
+<task_queued compile_id='131' method='java.lang.String &lt;init&gt; ([BB)V' bytes='15' count='512' iicount='512' level='3' stamp='0.181' comment='tiered' hot_count='512'/>
+<writer thread='15120'/>
+    181  131       3       java.lang.String::&lt;init&gt; (15 bytes)
+<nmethod compile_id='131' compiler='c1' level='3' entry='0x000001ae4cc3e4c0' size='1024' address='0x000001ae4cc3e310' relocation_offset='352' insts_offset='432' stub_offset='848' scopes_data_offset='920' scopes_pcs_offset='952' dependencies_offset='1016' metadata_offset='904' method='java.lang.String &lt;init&gt; ([BB)V' bytes='15' count='516' iicount='517' stamp='0.182'/>
+<writer thread='6096'/>
+<task_queued compile_id='132' method='java.lang.String checkBoundsBeginEnd (III)V' bytes='63' count='256' iicount='256' level='3' stamp='0.182' comment='tiered' hot_count='256'/>
+<writer thread='15120'/>
+    181  132       3       java.lang.String::checkBoundsBeginEnd (63 bytes)
+<writer thread='6096'/>
+<task_queued compile_id='133' method='java.lang.String substring (II)Ljava/lang/String;' bytes='58' count='256' iicount='256' level='3' stamp='0.183' comment='tiered' hot_count='256'/>
+<writer thread='15120'/>
+<nmethod compile_id='132' compiler='c1' level='3' entry='0x000001ae4cc3ea20' size='3800' address='0x000001ae4cc3e790' relocation_offset='352' insts_offset='656' stub_offset='2736' scopes_data_offset='3024' scopes_pcs_offset='3376' dependencies_offset='3792' oops_offset='2952' metadata_offset='2976' method='java.lang.String checkBoundsBeginEnd (III)V' bytes='63' count='266' iicount='266' stamp='0.183'/>
+    183  133       3       java.lang.String::substring (58 bytes)
+<nmethod compile_id='133' compiler='c1' level='3' entry='0x000001ae4cc3f880' size='2040' address='0x000001ae4cc3f690' relocation_offset='352' insts_offset='496' stub_offset='1584' scopes_data_offset='1720' scopes_pcs_offset='1856' dependencies_offset='2016' nul_chk_table_offset='2024' metadata_offset='1688' method='java.lang.String substring (II)Ljava/lang/String;' bytes='58' count='269' iicount='269' stamp='0.184'/>
+<writer thread='6096'/>
+<task_queued compile_id='134' method='java.lang.StringLatin1 indexOf ([BII)I' bytes='36' count='385' iicount='385' level='3' stamp='0.187' comment='tiered' hot_count='385'/>
+<writer thread='15120'/>
+    186  134       3       java.lang.StringLatin1::indexOf (36 bytes)
+<nmethod compile_id='134' compiler='c1' level='3' entry='0x000001ae4cc400e0' size='1856' address='0x000001ae4cc3ff10' relocation_offset='352' insts_offset='464' stub_offset='1488' scopes_data_offset='1568' scopes_pcs_offset='1688' dependencies_offset='1832' nul_chk_table_offset='1840' metadata_offset='1544' method='java.lang.StringLatin1 indexOf ([BII)I' bytes='36' count='390' iicount='390' stamp='0.187'/>
+<writer thread='6096'/>
+<nmethod compile_id='135' compile_kind='c2n' compiler='' level='0' entry='0x000001ae5415d920' size='984' address='0x000001ae5415d790' relocation_offset='352' consts_offset='984' insts_offset='400' method='java.lang.Class isArray ()Z' bytes='0' count='256' iicount='256' stamp='0.188'/>
+    187  135     n 0       java.lang.Class::isArray (native)   
+<task_queued compile_id='136' method='java.lang.System getSecurityManager ()Ljava/lang/SecurityManager;' bytes='12' count='256' iicount='256' level='3' stamp='0.189' comment='tiered' hot_count='256'/>
+<task_queued compile_id='137' method='java.lang.System allowSecurityManager ()Z' bytes='13' count='256' iicount='256' level='3' stamp='0.189' comment='tiered' hot_count='256'/>
+<writer thread='15120'/>
+    188  136       3       java.lang.System::getSecurityManager (12 bytes)
+<nmethod compile_id='136' compiler='c1' level='3' entry='0x000001ae4cc40840' size='952' address='0x000001ae4cc40690' relocation_offset='352' insts_offset='432' stub_offset='784' scopes_data_offset='856' scopes_pcs_offset='880' dependencies_offset='944' metadata_offset='840' method='java.lang.System getSecurityManager ()Ljava/lang/SecurityManager;' bytes='12' count='261' iicount='261' stamp='0.189'/>
+    189  137       3       java.lang.System::allowSecurityManager (13 bytes)
+<nmethod compile_id='137' compiler='c1' level='3' entry='0x000001ae4cc40c20' size='752' address='0x000001ae4cc40a90' relocation_offset='352' insts_offset='400' stub_offset='624' scopes_data_offset='688' scopes_pcs_offset='696' dependencies_offset='744' metadata_offset='680' method='java.lang.System allowSecurityManager ()Z' bytes='13' count='262' iicount='262' stamp='0.190'/>
+<writer thread='8156'/>
+<task_queued compile_id='138' method='java.lang.String isLatin1 ()Z' bytes='19' count='5632' iicount='5632' stamp='0.191' comment='tiered' hot_count='5632'/>
+<writer thread='14836'/>
+    191  138       4       java.lang.String::isLatin1 (19 bytes)
+<nmethod compile_id='138' compiler='c2' level='4' entry='0x000001ae5415dd00' size='568' address='0x000001ae5415db90' relocation_offset='352' insts_offset='368' stub_offset='496' scopes_data_offset='520' scopes_pcs_offset='528' dependencies_offset='560' method='java.lang.String isLatin1 ()Z' bytes='19' count='5634' iicount='5634' stamp='0.192'/>
+<make_not_entrant thread='14836' compile_id='1' compiler='c1' level='3' stamp='0.192'/>
+    192    1       3       java.lang.String::isLatin1 (19 bytes)   made not entrant
+<writer thread='8156'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/concurrent/ConcurrentMap' x='java.util.concurrent.ConcurrentHashMap remove (Ljava/lang/Object;)Ljava/lang/Object;' witness='java/util/concurrent/ConcurrentMap' stamp='0.193'/>
+<make_not_entrant thread='8156' compile_id='45' compiler='c1' level='3' stamp='0.193'/>
+    192   45       3       java.lang.invoke.MethodType$ConcurrentWeakInternSet::expungeStaleElements (27 bytes)   made not entrant
+<task_queued compile_id='139' method='java.lang.invoke.MemberName isInvocable ()Z' bytes='8' count='384' iicount='384' level='3' stamp='0.194' comment='tiered' hot_count='384'/>
+<task_queued compile_id='140' method='java.lang.invoke.MemberName testAnyFlags (I)Z' bytes='15' count='384' iicount='384' level='3' stamp='0.194' comment='tiered' hot_count='384'/>
+<writer thread='15120'/>
+    193  139       3       java.lang.invoke.MemberName::isInvocable (8 bytes)
+<nmethod compile_id='139' compiler='c1' level='3' entry='0x000001ae4cc40f40' size='1272' address='0x000001ae4cc40d90' relocation_offset='352' insts_offset='432' stub_offset='1040' scopes_data_offset='1120' scopes_pcs_offset='1184' dependencies_offset='1264' metadata_offset='1096' method='java.lang.invoke.MemberName isInvocable ()Z' bytes='8' count='391' iicount='391' stamp='0.194'/>
+    194  140       3       java.lang.invoke.MemberName::testAnyFlags (15 bytes)
+<nmethod compile_id='140' compiler='c1' level='3' entry='0x000001ae4cc414c0' size='1128' address='0x000001ae4cc41310' relocation_offset='352' insts_offset='432' stub_offset='944' scopes_data_offset='1016' scopes_pcs_offset='1056' dependencies_offset='1120' metadata_offset='1000' method='java.lang.invoke.MemberName testAnyFlags (I)Z' bytes='15' count='391' iicount='391' stamp='0.195'/>
+<writer thread='8156'/>
+<nmethod compile_id='141' compile_kind='c2n' compiler='' level='0' entry='0x000001ae5415e000' size='400' address='0x000001ae5415de90' relocation_offset='352' consts_offset='400' insts_offset='368' method='java.lang.invoke.MethodHandle linkToStatic (Ljava/lang/invoke/MemberName;)Ljava/lang/Object;' bytes='0' count='0' iicount='0' stamp='0.195'/>
+    195  141     n 0       java.lang.invoke.MethodHandle::linkToStatic(L)L (native)   (static)
+<task_queued compile_id='142' method='java.lang.Math max (II)I' bytes='11' count='256' iicount='256' level='3' stamp='0.196' comment='tiered' hot_count='256'/>
+<writer thread='15120'/>
+    195  142       3       java.lang.Math::max (11 bytes)
+<nmethod compile_id='142' compiler='c1' level='3' entry='0x000001ae4cc41920' size='792' address='0x000001ae4cc41790' relocation_offset='352' insts_offset='400' stub_offset='656' scopes_data_offset='720' scopes_pcs_offset='736' dependencies_offset='784' metadata_offset='712' method='java.lang.Math max (II)I' bytes='11' count='268' iicount='268' stamp='0.196'/>
+<writer thread='8156'/>
+<task_queued compile_id='143' method='java.lang.AbstractStringBuilder putStringAt (ILjava/lang/String;)V' bytes='12' count='384' iicount='384' level='3' stamp='0.197' comment='tiered' hot_count='384'/>
+<task_queued compile_id='144' method='java.lang.AbstractStringBuilder putStringAt (ILjava/lang/String;II)V' bytes='34' count='384' iicount='384' level='3' stamp='0.197' comment='tiered' hot_count='384'/>
+<writer thread='15120'/>
+    196  143       3       java.lang.AbstractStringBuilder::putStringAt (12 bytes)
+<writer thread='8156'/>
+<task_queued compile_id='145' method='java.lang.AbstractStringBuilder getCoder ()B' bytes='15' count='384' iicount='384' level='3' stamp='0.197' comment='tiered' hot_count='384'/>
+<task_queued compile_id='146' method='java.lang.String getBytes ([BIIBI)V' bytes='46' count='384' iicount='384' level='3' stamp='0.197' comment='tiered' hot_count='384'/>
+<task_queued compile_id='147' method='java.lang.StringLatin1 newString ([BII)Ljava/lang/String;' bytes='24' count='474' iicount='474' level='3' stamp='0.197' comment='tiered' hot_count='474'/>
+<writer thread='15120'/>
+<nmethod compile_id='143' compiler='c1' level='3' entry='0x000001ae4cc41cc0' size='1288' address='0x000001ae4cc41b10' relocation_offset='352' insts_offset='432' stub_offset='944' scopes_data_offset='1040' scopes_pcs_offset='1128' dependencies_offset='1256' nul_chk_table_offset='1264' metadata_offset='1016' method='java.lang.AbstractStringBuilder putStringAt (ILjava/lang/String;)V' bytes='12' count='388' iicount='388' stamp='0.197'/>
+    197  147       3       java.lang.StringLatin1::newString (24 bytes)
+<writer thread='8156'/>
+<task_queued compile_id='148' method='java.lang.StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder;' bytes='8' count='389' iicount='389' level='3' stamp='0.197' comment='tiered' hot_count='389'/>
+<task_queued compile_id='149' method='java.lang.AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;' bytes='45' count='389' iicount='389' level='3' stamp='0.197' comment='tiered' hot_count='389'/>
+<writer thread='15120'/>
+<nmethod compile_id='147' compiler='c1' level='3' entry='0x000001ae4cc42260' size='1496' address='0x000001ae4cc42090' relocation_offset='352' insts_offset='464' stub_offset='1200' scopes_data_offset='1296' scopes_pcs_offset='1376' dependencies_offset='1488' metadata_offset='1272' method='java.lang.StringLatin1 newString ([BII)Ljava/lang/String;' bytes='24' count='480' iicount='480' stamp='0.198'/>
+    197  144       3       java.lang.AbstractStringBuilder::putStringAt (34 bytes)
+<nmethod compile_id='144' compiler='c1' level='3' entry='0x000001ae4cc42860' size='1536' address='0x000001ae4cc42690' relocation_offset='352' insts_offset='464' stub_offset='1168' scopes_data_offset='1280' scopes_pcs_offset='1384' dependencies_offset='1512' nul_chk_table_offset='1520' metadata_offset='1256' method='java.lang.AbstractStringBuilder putStringAt (ILjava/lang/String;II)V' bytes='34' count='395' iicount='395' stamp='0.199'/>
+<writer thread='8156'/>
+<task_queued compile_id='150' method='java.lang.ref.ReferenceQueue poll ()Ljava/lang/ref/Reference;' bytes='28' count='419' iicount='419' level='3' stamp='0.199' comment='tiered' hot_count='419'/>
+<writer thread='15120'/>
+    198  145       3       java.lang.AbstractStringBuilder::getCoder (15 bytes)
+<nmethod compile_id='145' compiler='c1' level='3' entry='0x000001ae4cc42ea0' size='792' address='0x000001ae4cc42d10' relocation_offset='352' insts_offset='400' stub_offset='656' scopes_data_offset='720' scopes_pcs_offset='736' dependencies_offset='784' metadata_offset='712' method='java.lang.AbstractStringBuilder getCoder ()B' bytes='15' count='395' iicount='395' stamp='0.199'/>
+    199  150   !   3       java.lang.ref.ReferenceQueue::poll (28 bytes)
+<nmethod compile_id='150' compiler='c1' level='3' entry='0x000001ae4cc43240' size='1296' address='0x000001ae4cc43090' relocation_offset='352' insts_offset='432' stub_offset='1008' scopes_data_offset='1088' scopes_pcs_offset='1152' dependencies_offset='1248' handler_table_offset='1256' nul_chk_table_offset='1280' metadata_offset='1080' method='java.lang.ref.ReferenceQueue poll ()Ljava/lang/ref/Reference;' bytes='28' count='419' iicount='419' stamp='0.199'/>
+    199  146       3       java.lang.String::getBytes (46 bytes)
+<nmethod compile_id='146' compiler='c1' level='3' entry='0x000001ae4cc437e0' size='1440' address='0x000001ae4cc43610' relocation_offset='352' insts_offset='464' stub_offset='1168' scopes_data_offset='1272' scopes_pcs_offset='1336' dependencies_offset='1432' metadata_offset='1256' method='java.lang.String getBytes ([BIIBI)V' bytes='46' count='395' iicount='395' stamp='0.200'/>
+    200  148       3       java.lang.StringBuilder::append (8 bytes)
+<nmethod compile_id='148' compiler='c1' level='3' entry='0x000001ae4cc43dc0' size='872' address='0x000001ae4cc43c10' relocation_offset='352' insts_offset='432' stub_offset='688' scopes_data_offset='768' scopes_pcs_offset='800' dependencies_offset='864' metadata_offset='760' method='java.lang.StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder;' bytes='8' count='395' iicount='395' stamp='0.201'/>
+    200  149       3       java.lang.AbstractStringBuilder::append (45 bytes)
+<nmethod compile_id='149' compiler='c1' level='3' entry='0x000001ae4cc44180' size='1664' address='0x000001ae4cc43f90' relocation_offset='352' insts_offset='496' stub_offset='1232' scopes_data_offset='1360' scopes_pcs_offset='1472' dependencies_offset='1632' nul_chk_table_offset='1640' metadata_offset='1336' method='java.lang.AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;' bytes='45' count='395' iicount='395' stamp='0.201'/>
+<writer thread='8156'/>
+<task_queued compile_id='151' method='java.util.HashMap$HashIterator &lt;init&gt; (Ljava/util/HashMap;)V' bytes='79' count='587' backedge_count='1454' iicount='587' level='3' stamp='0.208' comment='tiered' hot_count='587'/>
+<writer thread='15120'/>
+    207  151       3       java.util.HashMap$HashIterator::&lt;init&gt; (79 bytes)
+<nmethod compile_id='151' compiler='c1' level='3' entry='0x000001ae4cc44860' size='1856' address='0x000001ae4cc44690' relocation_offset='352' insts_offset='464' stub_offset='1520' scopes_data_offset='1600' scopes_pcs_offset='1680' dependencies_offset='1824' nul_chk_table_offset='1832' metadata_offset='1576' method='java.util.HashMap$HashIterator &lt;init&gt; (Ljava/util/HashMap;)V' bytes='79' count='588' backedge_count='1454' iicount='588' stamp='0.209'/>
+<writer thread='8156'/>
+<nmethod compile_id='152' compile_kind='c2n' compiler='' level='0' entry='0x000001ae5415e340' size='1160' address='0x000001ae5415e190' relocation_offset='352' consts_offset='1160' insts_offset='432' method='java.lang.Object clone ()Ljava/lang/Object;' bytes='0' count='256' iicount='256' stamp='0.209'/>
+    208  152     n 0       java.lang.Object::clone (native)   
+<task_queued compile_id='153' method='java.lang.Class getClassLoader ()Ljava/lang/ClassLoader;' bytes='28' count='384' iicount='384' level='3' stamp='0.209' comment='tiered' hot_count='384'/>
+<writer thread='15120'/>
+    209  153       3       java.lang.Class::getClassLoader (28 bytes)
+<writer thread='8156'/>
+<nmethod compile_id='154' compile_kind='c2n' compiler='' level='0' entry='0x000001ae5415e800' size='400' address='0x000001ae5415e690' relocation_offset='352' consts_offset='400' insts_offset='368' method='java.lang.invoke.MethodHandle linkToStatic (Ljava/lang/Object;Ljava/lang/invoke/MemberName;)V' bytes='0' count='0' iicount='0' stamp='0.209'/>
+    209  154     n 0       java.lang.invoke.MethodHandle::linkToStatic(LL)V (native)   (static)
+<task_queued compile_id='155' method='java.lang.invoke.MethodType ptypes ()[Ljava/lang/Class;' bytes='5' count='128' iicount='128' level='1' stamp='0.210' comment='tiered' hot_count='128'/>
+<task_queued compile_id='156' method='jdk.internal.org.objectweb.asm.SymbolTable get (I)Ljdk/internal/org/objectweb/asm/SymbolTable$Entry;' bytes='13' count='256' iicount='256' level='3' stamp='0.210' comment='tiered' hot_count='256'/>
+<task_queued compile_id='157' method='java.lang.String charAt (I)C' bytes='25' count='5632' iicount='5632' stamp='0.210' comment='tiered' hot_count='5632'/>
+<writer thread='14836'/>
+    210  157       4       java.lang.String::charAt (25 bytes)
+<writer thread='15120'/>
+<nmethod compile_id='153' compiler='c1' level='3' entry='0x000001ae4cc45060' size='4008' address='0x000001ae4cc44e10' relocation_offset='352' insts_offset='592' stub_offset='3184' scopes_data_offset='3328' scopes_pcs_offset='3600' dependencies_offset='3952' nul_chk_table_offset='3960' metadata_offset='3272' method='java.lang.Class getClassLoader ()Ljava/lang/ClassLoader;' bytes='28' count='398' iicount='398' stamp='0.211'/>
+<writer thread='8156'/>
+<task_queued compile_id='158' method='java.lang.String equals (Ljava/lang/Object;)Z' bytes='50' count='6656' iicount='6656' stamp='0.211' comment='tiered' hot_count='6656'/>
+<writer thread='15120'/>
+    210  156       3       jdk.internal.org.objectweb.asm.SymbolTable::get (13 bytes)
+<writer thread='8156'/>
+<task_queued compile_id='159' method='java.lang.String checkBoundsOffCount (III)V' bytes='64' count='338' iicount='338' level='3' stamp='0.211' comment='tiered' hot_count='338'/>
+<task_queued compile_id='160' method='java.lang.invoke.MethodType$ConcurrentWeakInternSet expungeStaleElements ()V' bytes='27' count='402' iicount='402' level='3' stamp='0.211' comment='tiered' hot_count='402'/>
+<writer thread='15120'/>
+<nmethod compile_id='156' compiler='c1' level='3' entry='0x000001ae4cc45fa0' size='920' address='0x000001ae4cc45e10' relocation_offset='352' insts_offset='400' stub_offset='688' scopes_data_offset='752' scopes_pcs_offset='792' dependencies_offset='888' nul_chk_table_offset='896' metadata_offset='744' method='jdk.internal.org.objectweb.asm.SymbolTable get (I)Ljdk/internal/org/objectweb/asm/SymbolTable$Entry;' bytes='13' count='314' iicount='314' stamp='0.211'/>
+    211  160       3       java.lang.invoke.MethodType$ConcurrentWeakInternSet::expungeStaleElements (27 bytes)
+<writer thread='14836'/>
+<nmethod compile_id='157' compiler='c2' level='4' entry='0x000001ae5415eb20' size='784' address='0x000001ae5415e990' relocation_offset='352' insts_offset='400' stub_offset='592' scopes_data_offset='632' scopes_pcs_offset='680' dependencies_offset='760' nul_chk_table_offset='768' metadata_offset='616' method='java.lang.String charAt (I)C' bytes='25' count='5868' iicount='5868' stamp='0.211'/>
+<make_not_entrant thread='14836' compile_id='24' compiler='c1' level='3' stamp='0.211'/>
+    211   24       3       java.lang.String::charAt (25 bytes)   made not entrant
+    211  158       4       java.lang.String::equals (50 bytes)
+<writer thread='15120'/>
+<nmethod compile_id='160' compiler='c1' level='3' entry='0x000001ae4cc463e0' size='2136' address='0x000001ae4cc46210' relocation_offset='352' insts_offset='464' stub_offset='1648' scopes_data_offset='1752' scopes_pcs_offset='1880' dependencies_offset='2072' handler_table_offset='2080' nul_chk_table_offset='2104' metadata_offset='1736' method='java.lang.invoke.MethodType$ConcurrentWeakInternSet expungeStaleElements ()V' bytes='27' count='406' iicount='406' stamp='0.212'/>
+    212  159       3       java.lang.String::checkBoundsOffCount (64 bytes)
+<writer thread='8156'/>
+<task_queued compile_id='161' method='java.lang.Class getModule ()Ljava/lang/Module;' bytes='5' count='128' iicount='128' level='1' stamp='0.213' comment='tiered' hot_count='128'/>
+<writer thread='14836'/>
+<nmethod compile_id='158' compiler='c2' level='4' entry='0x000001ae5415eea0' size='1000' address='0x000001ae5415ed10' relocation_offset='352' insts_offset='400' stub_offset='848' scopes_data_offset='888' scopes_pcs_offset='928' dependencies_offset='992' metadata_offset='872' method='java.lang.String equals (Ljava/lang/Object;)Z' bytes='50' count='6661' iicount='6661' stamp='0.213'/>
+<make_not_entrant thread='14836' compile_id='7' compiler='c1' level='3' stamp='0.213'/>
+    213    7       3       java.lang.String::equals (50 bytes)   made not entrant
+<writer thread='15120'/>
+<nmethod compile_id='159' compiler='c1' level='3' entry='0x000001ae4cc46d20' size='3800' address='0x000001ae4cc46a90' relocation_offset='352' insts_offset='656' stub_offset='2736' scopes_data_offset='3024' scopes_pcs_offset='3376' dependencies_offset='3792' oops_offset='2952' metadata_offset='2976' method='java.lang.String checkBoundsOffCount (III)V' bytes='64' count='339' iicount='339' stamp='0.214'/>
+    213  161       1       java.lang.Class::getModule (5 bytes)
+<nmethod compile_id='161' compiler='c1' level='1' entry='0x000001ae5415f2a0' size='664' address='0x000001ae5415f110' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.lang.Class getModule ()Ljava/lang/Module;' bytes='5' count='132' iicount='132' stamp='0.214'/>
+    214  155       1       java.lang.invoke.MethodType::ptypes (5 bytes)
+<nmethod compile_id='155' compiler='c1' level='1' entry='0x000001ae5415f5a0' size='664' address='0x000001ae5415f410' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.lang.invoke.MethodType ptypes ()[Ljava/lang/Class;' bytes='5' count='129' iicount='129' stamp='0.214'/>
+<writer thread='8156'/>
+<nmethod compile_id='162' compile_kind='c2n' compiler='' level='0' entry='0x000001ae5415f880' size='400' address='0x000001ae5415f710' relocation_offset='352' consts_offset='400' insts_offset='368' method='java.lang.invoke.MethodHandle linkToStatic (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/invoke/MemberName;)I' bytes='0' count='0' iicount='0' stamp='0.218'/>
+    218  162     n 0       java.lang.invoke.MethodHandle::linkToStatic(LLLLL)I (native)   (static)
+<writer thread='7104'/>
+<task_queued compile_id='163' method='java.io.BufferedInputStream getBufIfOpen ()[B' bytes='21' count='256' iicount='256' level='3' stamp='1.098' comment='tiered' hot_count='256'/>
+<task_queued compile_id='164' method='java.lang.StringUTF16 compress ([CI[BII)I' bytes='50' count='104' backedge_count='2048' iicount='104' level='3' stamp='1.098' comment='tiered' hot_count='104'/>
+<writer thread='15120'/>
+   1098  163       3       java.io.BufferedInputStream::getBufIfOpen (21 bytes)
+<writer thread='7104'/>
+<task_queued compile_id='165' method='java.io.BufferedInputStream read ()I' bytes='49' count='256' iicount='256' level='3' stamp='1.098' comment='tiered' hot_count='256'/>
+<writer thread='15120'/>
+<nmethod compile_id='163' compiler='c1' level='3' entry='0x000001ae4cc47b40' size='1040' address='0x000001ae4cc47990' relocation_offset='352' insts_offset='432' stub_offset='816' scopes_data_offset='896' scopes_pcs_offset='936' dependencies_offset='1032' metadata_offset='888' method='java.io.BufferedInputStream getBufIfOpen ()[B' bytes='21' count='530' iicount='532' stamp='1.099'/>
+   1098  164       3       java.lang.StringUTF16::compress (50 bytes)
+<writer thread='7104'/>
+<task_queued compile_id='166' method='java.io.DataInputStream readUTF (Ljava/io/DataInput;)Ljava/lang/String;' bytes='501' count='183' backedge_count='3072' iicount='183' level='3' stamp='1.099' comment='tiered' hot_count='183'/>
+<writer thread='15120'/>
+<nmethod compile_id='164' compiler='c1' level='3' entry='0x000001ae4cc47fc0' size='1344' address='0x000001ae4cc47e10' relocation_offset='352' insts_offset='432' stub_offset='976' scopes_data_offset='1040' scopes_pcs_offset='1120' dependencies_offset='1296' nul_chk_table_offset='1304' metadata_offset='1032' method='java.lang.StringUTF16 compress ([CI[BII)I' bytes='50' count='259' backedge_count='4832' iicount='259' stamp='1.099'/>
+   1099  166       3       java.io.DataInputStream::readUTF (501 bytes)
+<writer thread='7104'/>
+<task_queued compile_id='167' method='java.lang.String &lt;init&gt; ([CII)V' bytes='14' count='256' iicount='256' level='3' stamp='1.099' comment='tiered' hot_count='256'/>
+<task_queued compile_id='168' method='java.lang.String &lt;init&gt; ([CIILjava/lang/Void;)V' bytes='74' count='384' iicount='384' level='3' stamp='1.100' comment='tiered' hot_count='384'/>
+<task_queued compile_id='169' method='java.lang.StringUTF16 compress ([CII)[B' bytes='20' count='384' iicount='384' level='3' stamp='1.100' comment='tiered' hot_count='384'/>
+<task_queued compile_id='170' method='java.lang.String rangeCheck ([CII)Ljava/lang/Void;' bytes='9' count='384' iicount='384' level='3' stamp='1.100' comment='tiered' hot_count='384'/>
+<task_queued compile_id='171' method='java.io.BufferedInputStream read1 ([BII)I' bytes='108' count='512' iicount='512' level='3' stamp='1.100' comment='tiered' hot_count='512'/>
+<task_queued compile_id='172' method='java.util.Objects checkFromIndexSize (III)I' bytes='8' count='512' iicount='512' level='3' stamp='1.100' comment='tiered' hot_count='512'/>
+<task_queued compile_id='173' method='jdk.internal.util.Preconditions checkFromIndexSize (IIILjava/util/function/BiFunction;)I' bytes='25' count='512' iicount='512' level='3' stamp='1.100' comment='tiered' hot_count='512'/>
+<task_queued compile_id='174' method='java.io.BufferedInputStream read ([BII)I' bytes='113' count='640' backedge_count='2' iicount='640' level='3' stamp='1.101' comment='tiered' hot_count='640'/>
+<task_queued compile_id='175' method='java.io.DataInputStream readFully ([BII)V' bytes='59' count='640' backedge_count='639' iicount='640' level='3' stamp='1.101' comment='tiered' hot_count='640'/>
+<writer thread='15120'/>
+<nmethod compile_id='166' compiler='c1' level='3' entry='0x000001ae4cc487e0' size='12440' address='0x000001ae4cc48390' relocation_offset='352' insts_offset='1104' stub_offset='9104' scopes_data_offset='9592' scopes_pcs_offset='10784' dependencies_offset='12304' nul_chk_table_offset='12312' oops_offset='9528' metadata_offset='9536' method='java.io.DataInputStream readUTF (Ljava/io/DataInput;)Ljava/lang/String;' bytes='501' count='602' backedge_count='8596' iicount='602' stamp='1.102'/>
+   1101  175       3       java.io.DataInputStream::readFully (59 bytes)
+<nmethod compile_id='175' compiler='c1' level='3' entry='0x000001ae4cc4b680' size='2336' address='0x000001ae4cc4b490' relocation_offset='352' insts_offset='496' stub_offset='1712' scopes_data_offset='1840' scopes_pcs_offset='2056' dependencies_offset='2296' nul_chk_table_offset='2304' metadata_offset='1816' method='java.io.DataInputStream readFully ([BII)V' bytes='59' count='989' backedge_count='989' iicount='989' stamp='1.103'/>
+<writer thread='7104'/>
+<task_queued compile_id='176' method='java.io.DataInputStream readShort ()S' bytes='40' count='640' iicount='640' level='3' stamp='1.103' comment='tiered' hot_count='640'/>
+<writer thread='15120'/>
+   1102  174  s    3       java.io.BufferedInputStream::read (113 bytes)
+<writer thread='7104'/>
+<task_queued compile_id='177' method='java.io.BufferedInputStream getBufIfOpen ()[B' bytes='21' count='5454' iicount='5454' stamp='1.103' comment='tiered' hot_count='5454'/>
+<writer thread='14836'/>
+   1103  177       4       java.io.BufferedInputStream::getBufIfOpen (21 bytes)
+<writer thread='15120'/>
+<nmethod compile_id='174' compiler='c1' level='3' entry='0x000001ae4cc4c040' size='3192' address='0x000001ae4cc4be10' relocation_offset='352' insts_offset='560' stub_offset='2544' scopes_data_offset='2688' scopes_pcs_offset='2888' dependencies_offset='3160' nul_chk_table_offset='3168' metadata_offset='2664' method='java.io.BufferedInputStream read ([BII)I' bytes='113' count='991' backedge_count='12' iicount='991' stamp='1.103'/>
+   1103  165  s    3       java.io.BufferedInputStream::read (49 bytes)
+<writer thread='14836'/>
+<nmethod compile_id='177' compiler='c2' level='4' entry='0x000001ae5415fba0' size='632' address='0x000001ae5415fa10' relocation_offset='352' insts_offset='400' stub_offset='528' scopes_data_offset='560' scopes_pcs_offset='576' dependencies_offset='624' metadata_offset='552' method='java.io.BufferedInputStream getBufIfOpen ()[B' bytes='21' count='6605' iicount='6605' stamp='1.104'/>
+<make_not_entrant thread='14836' compile_id='163' compiler='c1' level='3' stamp='1.104'/>
+   1103  163       3       java.io.BufferedInputStream::getBufIfOpen (21 bytes)   made not entrant
+<writer thread='15120'/>
+<nmethod compile_id='165' compiler='c1' level='3' entry='0x000001ae4cc4cd00' size='1904' address='0x000001ae4cc4cb10' relocation_offset='352' insts_offset='496' stub_offset='1488' scopes_data_offset='1600' scopes_pcs_offset='1680' dependencies_offset='1872' nul_chk_table_offset='1880' metadata_offset='1576' method='java.io.BufferedInputStream read ()I' bytes='49' count='5205' iicount='5205' stamp='1.104'/>
+   1104  176       3       java.io.DataInputStream::readShort (40 bytes)
+<nmethod compile_id='176' compiler='c1' level='3' entry='0x000001ae4cc4d460' size='1648' address='0x000001ae4cc4d290' relocation_offset='352' insts_offset='464' stub_offset='1264' scopes_data_offset='1376' scopes_pcs_offset='1456' dependencies_offset='1616' nul_chk_table_offset='1624' metadata_offset='1368' method='java.io.DataInputStream readShort ()S' bytes='40' count='2000' iicount='2000' stamp='1.105'/>
+   1104  171       3       java.io.BufferedInputStream::read1 (108 bytes)
+<nmethod compile_id='171' compiler='c1' level='3' entry='0x000001ae4cc4db60' size='3376' address='0x000001ae4cc4d910' relocation_offset='352' insts_offset='592' stub_offset='2576' scopes_data_offset='2760' scopes_pcs_offset='3024' dependencies_offset='3344' nul_chk_table_offset='3352' metadata_offset='2728' method='java.io.BufferedInputStream read1 ([BII)I' bytes='108' count='1003' iicount='1003' stamp='1.106'/>
+   1105  167       3       java.lang.String::&lt;init&gt; (14 bytes)
+<nmethod compile_id='167' compiler='c1' level='3' entry='0x000001ae4cc4e860' size='1264' address='0x000001ae4cc4e690' relocation_offset='352' insts_offset='464' stub_offset='912' scopes_data_offset='1016' scopes_pcs_offset='1128' dependencies_offset='1240' nul_chk_table_offset='1248' metadata_offset='1000' method='java.lang.String &lt;init&gt; ([CII)V' bytes='14' count='619' iicount='619' stamp='1.106'/>
+   1106  170       3       java.lang.String::rangeCheck (9 bytes)
+<nmethod compile_id='170' compiler='c1' level='3' entry='0x000001ae4cc4ed40' size='880' address='0x000001ae4cc4eb90' relocation_offset='352' insts_offset='432' stub_offset='656' scopes_data_offset='736' scopes_pcs_offset='776' dependencies_offset='856' nul_chk_table_offset='864' metadata_offset='728' method='java.lang.String rangeCheck ([CII)Ljava/lang/Void;' bytes='9' count='619' iicount='619' stamp='1.106'/>
+   1106  172       3       java.util.Objects::checkFromIndexSize (8 bytes)
+<nmethod compile_id='172' compiler='c1' level='3' entry='0x000001ae4cc4f0c0' size='1192' address='0x000001ae4cc4ef10' relocation_offset='352' insts_offset='432' stub_offset='912' scopes_data_offset='1000' scopes_pcs_offset='1072' dependencies_offset='1168' nul_chk_table_offset='1176' metadata_offset='984' method='java.util.Objects checkFromIndexSize (III)I' bytes='8' count='995' iicount='995' stamp='1.107'/>
+   1107  173       3       jdk.internal.util.Preconditions::checkFromIndexSize (25 bytes)
+<nmethod compile_id='173' compiler='c1' level='3' entry='0x000001ae4cc4f5c0' size='1040' address='0x000001ae4cc4f410' relocation_offset='352' insts_offset='432' stub_offset='816' scopes_data_offset='896' scopes_pcs_offset='936' dependencies_offset='1016' nul_chk_table_offset='1024' metadata_offset='888' method='jdk.internal.util.Preconditions checkFromIndexSize (IIILjava/util/function/BiFunction;)I' bytes='25' count='995' iicount='995' stamp='1.108'/>
+   1107  168       3       java.lang.String::&lt;init&gt; (74 bytes)
+<nmethod compile_id='168' compiler='c1' level='3' entry='0x000001ae4cc4fa80' size='1800' address='0x000001ae4cc4f890' relocation_offset='352' insts_offset='496' stub_offset='1488' scopes_data_offset='1592' scopes_pcs_offset='1696' dependencies_offset='1792' metadata_offset='1576' method='java.lang.String &lt;init&gt; ([CIILjava/lang/Void;)V' bytes='74' count='648' iicount='648' stamp='1.108'/>
+   1108  169       3       java.lang.StringUTF16::compress (20 bytes)
+<writer thread='7104'/>
+<task_queued compile_id='178' method='sun.util.locale.LocaleUtils isUpper (C)Z' bytes='18' count='256' iicount='256' level='3' stamp='1.109' comment='tiered' hot_count='256'/>
+<writer thread='15120'/>
+<nmethod compile_id='169' compiler='c1' level='3' entry='0x000001ae4cc501c0' size='1160' address='0x000001ae4cc50010' relocation_offset='352' insts_offset='432' stub_offset='944' scopes_data_offset='1024' scopes_pcs_offset='1072' dependencies_offset='1152' metadata_offset='1016' method='java.lang.StringUTF16 compress ([CII)[B' bytes='20' count='648' iicount='648' stamp='1.109'/>
+   1108  178       3       sun.util.locale.LocaleUtils::isUpper (18 bytes)
+<nmethod compile_id='178' compiler='c1' level='3' entry='0x000001ae4cc506a0' size='856' address='0x000001ae4cc50510' relocation_offset='352' insts_offset='400' stub_offset='720' scopes_data_offset='784' scopes_pcs_offset='800' dependencies_offset='848' metadata_offset='776' method='sun.util.locale.LocaleUtils isUpper (C)Z' bytes='18' count='333' iicount='333' stamp='1.109'/>
+<writer thread='7104'/>
+<task_queued compile_id='179' method='java.lang.ref.Reference reachabilityFence (Ljava/lang/Object;)V' bytes='1' count='256' iicount='256' level='3' stamp='1.112' comment='tiered' hot_count='256'/>
+<writer thread='15120'/>
+   1112  179       3       java.lang.ref.Reference::reachabilityFence (1 bytes)
+<nmethod compile_id='179' compiler='c1' level='3' entry='0x000001ae4cc50a20' size='728' address='0x000001ae4cc50890' relocation_offset='352' insts_offset='400' stub_offset='592' scopes_data_offset='656' scopes_pcs_offset='672' dependencies_offset='720' metadata_offset='648' method='java.lang.ref.Reference reachabilityFence (Ljava/lang/Object;)V' bytes='1' count='526' iicount='526' stamp='1.112'/>
+<writer thread='7104'/>
+<task_queued compile_id='180' method='java.lang.invoke.MethodType parameterCount ()I' bytes='6' count='256' iicount='256' level='3' stamp='1.113' comment='tiered' hot_count='256'/>
+<writer thread='15120'/>
+   1113  180       3       java.lang.invoke.MethodType::parameterCount (6 bytes)
+<writer thread='7104'/>
+<task_queued compile_id='181' method='java.lang.invoke.MethodType checkSlotCount (I)V' bytes='33' count='256' iicount='256' level='3' stamp='1.114' comment='tiered' hot_count='256'/>
+<task_queued compile_id='182' method='java.lang.invoke.MethodHandle type ()Ljava/lang/invoke/MethodType;' bytes='5' count='128' iicount='128' level='1' stamp='1.114' comment='tiered' hot_count='128'/>
+<writer thread='15120'/>
+<nmethod compile_id='180' compiler='c1' level='3' entry='0x000001ae4cc50d20' size='800' address='0x000001ae4cc50b90' relocation_offset='352' insts_offset='400' stub_offset='624' scopes_data_offset='688' scopes_pcs_offset='712' dependencies_offset='776' nul_chk_table_offset='784' metadata_offset='680' method='java.lang.invoke.MethodType parameterCount ()I' bytes='6' count='257' iicount='257' stamp='1.114'/>
+   1113  181       3       java.lang.invoke.MethodType::checkSlotCount (33 bytes)
+<writer thread='7104'/>
+<task_queued compile_id='183' method='jdk.internal.org.objectweb.asm.ByteVector putUTF8 (Ljava/lang/String;)Ljdk/internal/org/objectweb/asm/ByteVector;' bytes='144' count='143' backedge_count='3072' iicount='143' level='3' stamp='1.114' comment='tiered' hot_count='143'/>
+<writer thread='15120'/>
+<nmethod compile_id='181' compiler='c1' level='3' entry='0x000001ae4cc51140' size='2840' address='0x000001ae4cc50f10' relocation_offset='352' insts_offset='560' stub_offset='2128' scopes_data_offset='2344' scopes_pcs_offset='2528' dependencies_offset='2832' oops_offset='2280' metadata_offset='2288' method='java.lang.invoke.MethodType checkSlotCount (I)V' bytes='33' count='262' iicount='262' stamp='1.115'/>
+   1114  183       3       jdk.internal.org.objectweb.asm.ByteVector::putUTF8 (144 bytes)
+<writer thread='7104'/>
+<task_queued compile_id='184' method='java.util.StringTokenizer skipDelimiters (I)I' bytes='116' count='256' backedge_count='256' iicount='256' level='3' stamp='1.115' comment='tiered' hot_count='256'/>
+<task_queued compile_id='185' method='java.util.StringTokenizer scanToken (I)I' bytes='179' count='352' backedge_count='2048' iicount='352' level='3' stamp='1.115' comment='tiered' hot_count='352'/>
+<writer thread='15120'/>
+<nmethod compile_id='183' compiler='c1' level='3' entry='0x000001ae4cc51d00' size='4664' address='0x000001ae4cc51a90' relocation_offset='352' insts_offset='624' stub_offset='3344' scopes_data_offset='3560' scopes_pcs_offset='4064' dependencies_offset='4592' nul_chk_table_offset='4600' metadata_offset='3480' method='jdk.internal.org.objectweb.asm.ByteVector putUTF8 (Ljava/lang/String;)Ljdk/internal/org/objectweb/asm/ByteVector;' bytes='144' count='147' backedge_count='3187' iicount='147' stamp='1.116'/>
+   1116  185       3       java.util.StringTokenizer::scanToken (179 bytes)
+<writer thread='7104'/>
+<task_queued compile_id='186' method='java.util.StringTokenizer hasMoreTokens ()Z' bytes='29' count='384' iicount='384' level='3' stamp='1.117' comment='tiered' hot_count='384'/>
+<task_queued compile_id='187' method='java.util.StringTokenizer nextToken ()Ljava/lang/String;' bytes='92' count='384' iicount='384' level='3' stamp='1.117' comment='tiered' hot_count='384'/>
+<writer thread='15120'/>
+<nmethod compile_id='185' compiler='c1' level='3' entry='0x000001ae4cc53080' size='8552' address='0x000001ae4cc52d10' relocation_offset='352' insts_offset='880' stub_offset='6352' scopes_data_offset='6688' scopes_pcs_offset='7576' dependencies_offset='8456' nul_chk_table_offset='8464' metadata_offset='6600' method='java.util.StringTokenizer scanToken (I)I' bytes='179' count='2018' backedge_count='12064' iicount='2018' stamp='1.119'/>
+   1118  184       3       java.util.StringTokenizer::skipDelimiters (116 bytes)
+<nmethod compile_id='184' compiler='c1' level='3' entry='0x000001ae4cc55140' size='5296' address='0x000001ae4cc54e90' relocation_offset='352' insts_offset='688' stub_offset='3952' scopes_data_offset='4208' scopes_pcs_offset='4696' dependencies_offset='5240' nul_chk_table_offset='5248' metadata_offset='4120' method='java.util.StringTokenizer skipDelimiters (I)I' bytes='116' count='2019' backedge_count='2020' iicount='2019' stamp='1.120'/>
+   1120  186       3       java.util.StringTokenizer::hasMoreTokens (29 bytes)
+<nmethod compile_id='186' compiler='c1' level='3' entry='0x000001ae4cc56540' size='968' address='0x000001ae4cc56390' relocation_offset='352' insts_offset='432' stub_offset='784' scopes_data_offset='872' scopes_pcs_offset='896' dependencies_offset='960' metadata_offset='856' method='java.util.StringTokenizer hasMoreTokens ()Z' bytes='29' count='1010' iicount='1010' stamp='1.121'/>
+   1120  187       3       java.util.StringTokenizer::nextToken (92 bytes)
+<nmethod compile_id='187' compiler='c1' level='3' entry='0x000001ae4cc56980' size='1592' address='0x000001ae4cc56790' relocation_offset='352' insts_offset='496' stub_offset='1200' scopes_data_offset='1336' scopes_pcs_offset='1408' dependencies_offset='1568' nul_chk_table_offset='1576' metadata_offset='1320' method='java.util.StringTokenizer nextToken ()Ljava/lang/String;' bytes='92' count='1009' iicount='1009' stamp='1.121'/>
+   1121  182       1       java.lang.invoke.MethodHandle::type (5 bytes)
+<nmethod compile_id='182' compiler='c1' level='1' entry='0x000001ae5415fea0' size='664' address='0x000001ae5415fd10' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.lang.invoke.MethodHandle type ()Ljava/lang/invoke/MethodType;' bytes='5' count='146' iicount='146' stamp='1.122'/>
+<writer thread='7104'/>
+<task_queued compile_id='188' method='java.lang.ref.Reference &lt;init&gt; (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V' bytes='25' count='256' iicount='256' level='3' stamp='1.122' comment='tiered' hot_count='256'/>
+<writer thread='15120'/>
+   1122  188       3       java.lang.ref.Reference::&lt;init&gt; (25 bytes)
+<nmethod compile_id='188' compiler='c1' level='3' entry='0x000001ae4cc56fc0' size='1224' address='0x000001ae4cc56e10' relocation_offset='352' insts_offset='432' stub_offset='1040' scopes_data_offset='1120' scopes_pcs_offset='1152' dependencies_offset='1216' metadata_offset='1096' method='java.lang.ref.Reference &lt;init&gt; (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V' bytes='25' count='257' iicount='257' stamp='1.122'/>
+<writer thread='7104'/>
+<task_queued compile_id='189' method='jdk.internal.util.ArraysSupport newLength (III)I' bytes='23' count='256' iicount='256' level='3' stamp='1.123' comment='tiered' hot_count='256'/>
+<task_queued compile_id='190' method='java.lang.StringLatin1 replace ([BCC)Ljava/lang/String;' bytes='198' count='115' backedge_count='4096' iicount='115' level='3' stamp='1.123' comment='tiered' hot_count='115'/>
+<writer thread='15120'/>
+   1123  189       3       jdk.internal.util.ArraysSupport::newLength (23 bytes)
+<writer thread='7104'/>
+<task_queued compile_id='191' method='java.lang.AbstractStringBuilder newCapacity (I)I' bytes='59' count='258' iicount='258' level='3' stamp='1.123' comment='tiered' hot_count='258'/>
+<writer thread='15120'/>
+<nmethod compile_id='189' compiler='c1' level='3' entry='0x000001ae4cc574e0' size='1728' address='0x000001ae4cc57310' relocation_offset='352' insts_offset='464' stub_offset='1392' scopes_data_offset='1488' scopes_pcs_offset='1592' dependencies_offset='1720' metadata_offset='1464' method='jdk.internal.util.ArraysSupport newLength (III)I' bytes='23' count='260' iicount='260' stamp='1.124'/>
+   1123  190       3       java.lang.StringLatin1::replace (198 bytes)
+<writer thread='7104'/>
+<task_queued compile_id='192' method='sun.util.locale.BaseLocale getLanguage ()Ljava/lang/String;' bytes='5' count='128' iicount='128' level='1' stamp='1.125' comment='tiered' hot_count='128'/>
+<writer thread='15120'/>
+<nmethod compile_id='190' compiler='c1' level='3' entry='0x000001ae4cc57ca0' size='5312' address='0x000001ae4cc57a10' relocation_offset='352' insts_offset='656' stub_offset='4048' scopes_data_offset='4192' scopes_pcs_offset='4672' dependencies_offset='5248' nul_chk_table_offset='5256' metadata_offset='4152' method='java.lang.StringLatin1 replace ([BCC)Ljava/lang/String;' bytes='198' count='117' backedge_count='4201' iicount='117' stamp='1.125'/>
+   1124  191       3       java.lang.AbstractStringBuilder::newCapacity (59 bytes)
+<nmethod compile_id='191' compiler='c1' level='3' entry='0x000001ae4cc59100' size='2328' address='0x000001ae4cc58f10' relocation_offset='352' insts_offset='496' stub_offset='1776' scopes_data_offset='1896' scopes_pcs_offset='2096' dependencies_offset='2304' nul_chk_table_offset='2312' metadata_offset='1864' method='java.lang.AbstractStringBuilder newCapacity (I)I' bytes='59' count='260' iicount='260' stamp='1.125'/>
+   1125  192       1       sun.util.locale.BaseLocale::getLanguage (5 bytes)
+<nmethod compile_id='192' compiler='c1' level='1' entry='0x000001ae541601a0' size='664' address='0x000001ae54160010' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='sun.util.locale.BaseLocale getLanguage ()Ljava/lang/String;' bytes='5' count='128' iicount='128' stamp='1.126'/>
+<writer thread='7104'/>
+<task_queued compile_id='193' method='java.util.LinkedHashMap removeEldestEntry (Ljava/util/Map$Entry;)Z' bytes='2' count='128' iicount='128' level='1' stamp='1.126' comment='tiered' hot_count='128'/>
+<writer thread='15120'/>
+   1125  193       1       java.util.LinkedHashMap::removeEldestEntry (2 bytes)
+<writer thread='7104'/>
+<task_queued compile_id='194' method='java.util.LinkedHashMap newNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node;' bytes='23' count='256' iicount='256' level='3' stamp='1.126' comment='tiered' hot_count='256'/>
+<task_queued compile_id='195' method='java.util.LinkedHashMap$Entry &lt;init&gt; (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)V' bytes='10' count='256' iicount='256' level='3' stamp='1.126' comment='tiered' hot_count='256'/>
+<task_queued compile_id='196' method='java.util.LinkedHashMap linkNodeLast (Ljava/util/LinkedHashMap$Entry;)V' bytes='33' count='384' iicount='384' level='3' stamp='1.126' comment='tiered' hot_count='384'/>
+<task_queued compile_id='197' method='java.util.LinkedHashMap afterNodeInsertion (Z)V' bytes='40' count='384' iicount='384' level='3' stamp='1.126' comment='tiered' hot_count='384'/>
+<writer thread='15120'/>
+<nmethod compile_id='193' compiler='c1' level='1' entry='0x000001ae541604a0' size='664' address='0x000001ae54160310' relocation_offset='352' insts_offset='400' stub_offset='560' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='656' method='java.util.LinkedHashMap removeEldestEntry (Ljava/util/Map$Entry;)Z' bytes='2' count='468' iicount='469' stamp='1.126'/>
+   1126  196       3       java.util.LinkedHashMap::linkNodeLast (33 bytes)
+<nmethod compile_id='196' compiler='c1' level='3' entry='0x000001ae4cc59a40' size='1464' address='0x000001ae4cc59890' relocation_offset='352' insts_offset='432' stub_offset='1200' scopes_data_offset='1264' scopes_pcs_offset='1304' dependencies_offset='1416' nul_chk_table_offset='1424' metadata_offset='1256' method='java.util.LinkedHashMap linkNodeLast (Ljava/util/LinkedHashMap$Entry;)V' bytes='33' count='536' iicount='536' stamp='1.126'/>
+   1126  197       3       java.util.LinkedHashMap::afterNodeInsertion (40 bytes)
+<nmethod compile_id='197' compiler='c1' level='3' entry='0x000001ae4cc5a040' size='1080' address='0x000001ae4cc59e90' relocation_offset='352' insts_offset='432' stub_offset='880' scopes_data_offset='960' scopes_pcs_offset='1008' dependencies_offset='1072' metadata_offset='936' method='java.util.LinkedHashMap afterNodeInsertion (Z)V' bytes='40' count='536' iicount='536' stamp='1.127'/>
+   1126  194       3       java.util.LinkedHashMap::newNode (23 bytes)
+<nmethod compile_id='194' compiler='c1' level='3' entry='0x000001ae4cc5a4e0' size='1856' address='0x000001ae4cc5a310' relocation_offset='352' insts_offset='464' stub_offset='1456' scopes_data_offset='1552' scopes_pcs_offset='1696' dependencies_offset='1824' nul_chk_table_offset='1832' metadata_offset='1528' method='java.util.LinkedHashMap newNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node;' bytes='23' count='536' iicount='536' stamp='1.128'/>
+   1127  195       3       java.util.LinkedHashMap$Entry::&lt;init&gt; (10 bytes)
+<writer thread='7104'/>
+<task_queued compile_id='198' method='java.lang.StringBuilder toString ()Ljava/lang/String;' bytes='35' count='260' iicount='260' level='3' stamp='1.128' comment='tiered' hot_count='260'/>
+<writer thread='15120'/>
+<nmethod compile_id='195' compiler='c1' level='3' entry='0x000001ae4cc5ac40' size='1376' address='0x000001ae4cc5aa90' relocation_offset='352' insts_offset='432' stub_offset='1136' scopes_data_offset='1224' scopes_pcs_offset='1288' dependencies_offset='1368' metadata_offset='1192' method='java.util.LinkedHashMap$Entry &lt;init&gt; (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)V' bytes='10' count='536' iicount='536' stamp='1.128'/>
+   1127  198       3       java.lang.StringBuilder::toString (35 bytes)
+<nmethod compile_id='198' compiler='c1' level='3' entry='0x000001ae4cc5b1e0' size='1352' address='0x000001ae4cc5b010' relocation_offset='352' insts_offset='464' stub_offset='1104' scopes_data_offset='1208' scopes_pcs_offset='1248' dependencies_offset='1344' metadata_offset='1192' method='java.lang.StringBuilder toString ()Ljava/lang/String;' bytes='35' count='260' iicount='260' stamp='1.128'/>
+<writer thread='7104'/>
+<task_queued compile_id='199' method='java.util.AbstractMap &lt;init&gt; ()V' bytes='5' count='768' iicount='768' level='3' stamp='1.129' comment='tiered' hot_count='768'/>
+<writer thread='15120'/>
+   1129  199       3       java.util.AbstractMap::&lt;init&gt; (5 bytes)
+<writer thread='7104'/>
+<task_queued compile_id='200' method='java.lang.AbstractStringBuilder &lt;init&gt; (I)V' bytes='39' count='260' iicount='260' level='3' stamp='1.129' comment='tiered' hot_count='260'/>
+<writer thread='15120'/>
+<nmethod compile_id='199' compiler='c1' level='3' entry='0x000001ae4cc5b740' size='904' address='0x000001ae4cc5b590' relocation_offset='352' insts_offset='432' stub_offset='720' scopes_data_offset='800' scopes_pcs_offset='832' dependencies_offset='896' metadata_offset='776' method='java.util.AbstractMap &lt;init&gt; ()V' bytes='5' count='769' iicount='769' stamp='1.129'/>
+<writer thread='7104'/>
+<task_queued compile_id='201' method='java.lang.StringBuilder append (C)Ljava/lang/StringBuilder;' bytes='8' count='384' iicount='384' level='3' stamp='1.129' comment='tiered' hot_count='384'/>
+<task_queued compile_id='202' method='java.lang.AbstractStringBuilder append (C)Ljava/lang/AbstractStringBuilder;' bytes='77' count='384' iicount='384' level='3' stamp='1.129' comment='tiered' hot_count='384'/>
+<writer thread='15120'/>
+   1129  201       3       java.lang.StringBuilder::append (8 bytes)
+<nmethod compile_id='201' compiler='c1' level='3' entry='0x000001ae4cc5bb40' size='872' address='0x000001ae4cc5b990' relocation_offset='352' insts_offset='432' stub_offset='688' scopes_data_offset='768' scopes_pcs_offset='800' dependencies_offset='864' metadata_offset='760' method='java.lang.StringBuilder append (C)Ljava/lang/StringBuilder;' bytes='8' count='626' iicount='626' stamp='1.130'/>
+   1129  202       3       java.lang.AbstractStringBuilder::append (77 bytes)
+<writer thread='7104'/>
+<task_queued compile_id='203' method='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' bytes='13' count='5632' iicount='5632' stamp='1.130' comment='tiered' hot_count='5632'/>
+<writer thread='14836'/>
+   1130  203       4       java.util.HashMap::put (13 bytes)
+<writer thread='7104'/>
+<task_queued compile_id='204' method='jdk.internal.misc.Unsafe putReferenceRelease (Ljava/lang/Object;JLjava/lang/Object;)V' bytes='9' count='256' iicount='256' level='3' stamp='1.131' comment='tiered' hot_count='256'/>
+<writer thread='15120'/>
+<nmethod compile_id='202' compiler='c1' level='3' entry='0x000001ae4cc5bf20' size='2784' address='0x000001ae4cc5bd10' relocation_offset='352' insts_offset='528' stub_offset='2128' scopes_data_offset='2280' scopes_pcs_offset='2488' dependencies_offset='2744' nul_chk_table_offset='2752' metadata_offset='2232' method='java.lang.AbstractStringBuilder append (C)Ljava/lang/AbstractStringBuilder;' bytes='77' count='846' iicount='846' stamp='1.131'/>
+   1131  204       3       jdk.internal.misc.Unsafe::putReferenceRelease (9 bytes)
+<nmethod compile_id='204' compiler='c1' level='3' entry='0x000001ae4cc5c9a0' size='864' address='0x000001ae4cc5c810' relocation_offset='352' insts_offset='400' stub_offset='720' scopes_data_offset='784' scopes_pcs_offset='808' dependencies_offset='856' metadata_offset='776' method='jdk.internal.misc.Unsafe putReferenceRelease (Ljava/lang/Object;JLjava/lang/Object;)V' bytes='9' count='298' iicount='298' stamp='1.131'/>
+   1131  200       3       java.lang.AbstractStringBuilder::&lt;init&gt; (39 bytes)
+<writer thread='7104'/>
+<task_queued compile_id='205' method='java.lang.StringLatin1 inflate ([BI[CII)V' bytes='34' count='128' backedge_count='2670' iicount='128' level='3' stamp='1.131' comment='tiered' hot_count='128'/>
+<writer thread='15120'/>
+<nmethod compile_id='200' compiler='c1' level='3' entry='0x000001ae4cc5cd40' size='1256' address='0x000001ae4cc5cb90' relocation_offset='352' insts_offset='432' stub_offset='1040' scopes_data_offset='1120' scopes_pcs_offset='1168' dependencies_offset='1248' metadata_offset='1096' method='java.lang.AbstractStringBuilder &lt;init&gt; (I)V' bytes='39' count='406' iicount='406' stamp='1.132'/>
+   1131  205       3       java.lang.StringLatin1::inflate (34 bytes)
+<nmethod compile_id='205' compiler='c1' level='3' entry='0x000001ae4cc5d240' size='1272' address='0x000001ae4cc5d090' relocation_offset='352' insts_offset='432' stub_offset='912' scopes_data_offset='976' scopes_pcs_offset='1048' dependencies_offset='1224' nul_chk_table_offset='1232' metadata_offset='968' method='java.lang.StringLatin1 inflate ([BI[CII)V' bytes='34' count='145' backedge_count='3834' iicount='145' stamp='1.132'/>
+<writer thread='14836'/>
+<nmethod compile_id='203' compiler='c2' level='4' entry='0x000001ae54160820' size='6984' address='0x000001ae54160610' relocation_offset='352' insts_offset='528' stub_offset='5392' scopes_data_offset='5544' scopes_pcs_offset='6392' dependencies_offset='6760' handler_table_offset='6768' nul_chk_table_offset='6960' metadata_offset='5448' method='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' bytes='13' count='5646' iicount='5646' stamp='1.157'/>
+<make_not_entrant thread='14836' compile_id='73' compiler='c1' level='3' stamp='1.157'/>
+   1156   73       3       java.util.HashMap::put (13 bytes)   made not entrant
