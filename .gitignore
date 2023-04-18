@@ -1,6 +1,9 @@
 # Idea .idea directory
 /.idea
 
+# Idea out directory
+/out
+
 # Maven target directory
 /target
 
