@@ -2,7 +2,7 @@
 /.idea
 
 # Idea .iml file
-.iml
+*.iml
 
 # Idea out directory
 /out
