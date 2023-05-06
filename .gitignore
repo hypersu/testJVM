@@ -1,6 +1,9 @@
 # Idea .idea directory
 /.idea
 
+# Idea .iml file
+.iml
+
 # Idea out directory
 /out
 
