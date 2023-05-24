@@ -16,7 +16,7 @@ public class Test {
         serverSocketChannel.bind(new InetSocketAddress("192.168.0.101", 1111));
         serverSocketChannel.configureBlocking(false);
         Selector selector = Selector.open();
-        serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT, SelectionKey.OP_CONNECT);
+        serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
 
         Thread thread = new Thread(() -> {
             try {
