@@ -5,5 +5,8 @@ import java.nio.channels.SelectionKey;
 public class TestEventNum {
     public static void main(String[] args) {
         System.out.println(SelectionKey.OP_ACCEPT);
+        System.out.println(~SelectionKey.OP_ACCEPT);
+
+        System.out.println((16&(~16)));
     }
 }

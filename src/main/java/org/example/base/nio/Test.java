@@ -21,7 +21,9 @@ public class Test {
         Thread thread = new Thread(() -> {
             try {
                 while (true) {
+                    System.out.println("开始了....");
                     int s = selector.select();
+                    System.out.println("推出select....");
                     if (s == 0) {
                         System.out.println("非阻塞....");
                         Thread.sleep(10000);
