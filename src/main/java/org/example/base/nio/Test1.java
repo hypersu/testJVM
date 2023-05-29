@@ -5,13 +5,13 @@ import java.net.InetSocketAddress;
 import java.nio.channels.SocketChannel;
 
 public class Test1 {
-    public static void main(String[] args) {
+    public static void test() {
         Thread thread1 = new Thread(() -> {
             SocketChannel channel = null;
             try {
-                Thread.sleep(5000);
                 channel = SocketChannel.open();
-                channel.connect(new InetSocketAddress("192.168.0.101", 1111));
+                channel.connect(new InetSocketAddress("127.0.0.1", 1111));
+                channel.shutdownOutput();
             } catch (Exception e) {
                 e.printStackTrace();
             } finally {
@@ -23,5 +23,11 @@ public class Test1 {
         });
 
         thread1.start();
+    }
+
+    public static void main(String[] args) {
+        for (int i = 0; i < 1000; i++) {
+            test();
+        }
     }
 }
