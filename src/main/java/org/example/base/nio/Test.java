@@ -57,6 +57,7 @@ public class Test {
                             byteBuffer.flip();
                             byteBuffer.clear();
                             ss.close();
+                            key.cancel();
                         }
                     }
                 }
