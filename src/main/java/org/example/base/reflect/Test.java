@@ -9,5 +9,6 @@ public class Test {
         List<Test> list = new LinkedList<>();
         Class clazz=list.getClass();
         System.out.println(clazz.getName());
+        System.out.println(clazz.isArray());
     }
 }
