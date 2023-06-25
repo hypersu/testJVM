@@ -1,9 +1,15 @@
 package org.example.base.reflect;
 
+import java.lang.reflect.Method;
+
 public class TestInvocation {
 
     public interface IParent {
         void test();
+
+        default void test2() {
+            System.out.println("i am parent interface");
+        }
     }
 
     public static class Parent {
@@ -14,6 +20,7 @@ public class TestInvocation {
 
     public static class SonImpl implements IParent {
         private String a = "填充";
+
         @Override
         public void test() {
             System.out.println("i am son");
@@ -48,5 +55,9 @@ public class TestInvocation {
         Class clazz = Parent.class;
         Son son = new Son();
         clazz.getMethod("test").invoke(son);
+        // 测试子实现中是否有父接口
+        Class clazzImpl = SonImpl.class;
+        Method test2Method = clazzImpl.getMethod("test2");
+        System.out.println("子实现类：" + test2Method.getName());
     }
 }
