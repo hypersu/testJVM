@@ -1,5 +1,6 @@
 package org.example.base.stream;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.util.zip.GZIPOutputStream;
@@ -19,17 +20,33 @@ public class TestGzip {
         fi.close();
     }
 
-    public static void main(String[] args) throws Exception {
+    private static void move(String path, String newPath) throws Exception {
+        File newFile = new File(newPath);
+        newFile.delete();
+        File file = new File(path);
+        file.renameTo(newFile);
+    }
+
+    public static void main1(String[] args) throws Exception {
         String path = "D:\\IdeaProjects\\Viewer\\PhoenixServer\\wabapp\\phoenix\\pdfs\\minified\\" +
                 "web\\pdf.viewer.js";
-        String newPath = "C:\\Users\\ABC\\Desktop\\" +
+        String newPath = "C:\\Users\\DB-User\\Desktop\\" +
                 "pdf.viewer.js";
         gzip(path, newPath);
+        move(newPath, path);
 
         String path1 = "D:\\IdeaProjects\\Viewer\\PhoenixServer\\wabapp\\phoenix\\pdfs\\minified\\" +
                 "build\\pdf.worker.js";
-        String newPath1 = "C:\\Users\\ABC\\Desktop\\" +
+        String newPath1 = "C:\\Users\\DB-User\\Desktop\\" +
                 "pdf.worker.js";
         gzip(path1, newPath1);
+        move(newPath1, path1);
+    }
+
+    public static void main(String[] args) {
+        String path = "D:\\work\\temp\\WebViewerFiles\\eCTD-Sample\\3 Grouped\\202022";
+        path = path.replace("\\", "/");
+        String fullPath = "local" + path.replace("".replace("\\", "/"), "");
+        System.out.println("/" + fullPath);
     }
 }
