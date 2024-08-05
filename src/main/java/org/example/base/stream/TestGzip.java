@@ -43,10 +43,16 @@ public class TestGzip {
         move(newPath1, path1);
     }
 
-    public static void main(String[] args) {
+    public static void main2(String[] args) {
         String path = "D:\\work\\temp\\WebViewerFiles\\eCTD-Sample\\3 Grouped\\202022";
         path = path.replace("\\", "/");
         String fullPath = "local" + path.replace("".replace("\\", "/"), "");
         System.out.println("/" + fullPath);
+    }
+
+    public static void main(String[] args) throws Exception {
+        String path1 = "C:\\Users\\DB-User\\Desktop\\app.js";
+        String newPath1 = "C:\\Users\\DB-User\\Desktop\\app1.js";
+        gzip(path1, newPath1);
     }
 }
