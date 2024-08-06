@@ -30,6 +30,7 @@ public class TestUnixSocket {
             channel.read(byteBuffer);
             byteBuffer.flip();
             System.out.println(Charset.defaultCharset().decode(byteBuffer));
+            channel.write(ByteBuffer.wrap("23213213213121111111111111111111111111111112".getBytes()));
             channel.close();
         }
     }
